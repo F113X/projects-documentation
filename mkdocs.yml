@@ -1,0 +1,51 @@
+site_name: F113X
+nav:
+  - Home: index.md
+  - About: about.md
+
+  - Eurorack:
+
+    - 2399 Digital Delay Line: 
+      - Overview: Eurorack/2399-Digital-Delay-Line/index.md
+      - Manual: Eurorack/2399-Digital-Delay-Line/Manual.md
+    
+    - 606 Hihat Generator:
+      - Overview: Eurorack/606-Hihat-Generator/index.md
+      - Manual: Eurorack/606-Hihat-Generator/Manual.md
+    
+    - 4022 Eight Stage Sequencer:
+      - Overview: Eurorack/4022-Eight-Stage-Sequencer/index.md
+      - Manual: Eurorack/4022-Eight-Stage-Sequencer/Manual.md
+
+  - Archive:
+
+    - Index: archive/index.md
+
+    - Diode Ladder VCLPF 1:
+      - Overview: archive/Diode-Ladder-VCLPF-1/index.md
+      - Manual: archive/Diode-Ladder-VCLPF-1/Manual.md
+    
+    - Luther's VCO:
+      - Overview: archive/Luthers-VCO/index.md
+      - Manual: archive/Luthers-VCO/Manual.md
+    
+    - 1VOct Calibrator:
+      - Overview: archive/1VOct-Calibrator/index.md
+      - Manual: archive/1VOct-Calibrator/Manual.md
+    
+    - Big Button Pico:
+      - Overview: archive/Big-Button-Pico/index.md
+      - Manual: archive/Big-Button-Pico/Manual.md
+  
+  - Standalone:
+    - Dronebox-1:
+      - Overview: Standalone/Dronebox-1/index.md
+      - Manual: Standalone/Dronebox-1/Manual.md
+
+  - Notes:
+
+    - Pending Update: Notes/pending-update.md
+  
+
+theme: 
+  name: readthedocs
