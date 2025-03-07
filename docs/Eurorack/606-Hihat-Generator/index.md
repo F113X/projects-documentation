@@ -1,12 +1,14 @@
 # 606 Hihat Generator
 
+[TOC]
+
 *Hihat Generator based on Moritz Klein's Design*
 
-## Features
+# Features
 
 - tbu
 
-## Quirks and Problems (v0.1)
+# Quirks and Problems (v0.1)
 
 - Pitch adjustment sounds weird, and FM is also weird
 - Decay can only be adjusted with a dummy cable connecting to the Decay CV input
