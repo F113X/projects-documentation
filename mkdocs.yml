@@ -21,9 +21,9 @@ nav:
 
     - Index: archive/index.md
 
-    - Diode Ladder VCLPF 1:
-      - Overview: archive/Diode-Ladder-VCLPF-1/index.md
-      - Manual: archive/Diode-Ladder-VCLPF-1/Manual.md
+    - VCF-1:
+      - Overview: archive/VCF-1/index.md
+      - Manual: archive/VCF-1/Manual.md
     
     - Luther's VCO:
       - Overview: archive/Luthers-VCO/index.md
@@ -36,11 +36,28 @@ nav:
     - Big Button Pico:
       - Overview: archive/Big-Button-Pico/index.md
       - Manual: archive/Big-Button-Pico/Manual.md
+    
+    - Micro S&H:
+      - Overview: archive/uS&H/index.md
+      - Manual: archive/uS&H/Manual.md
+    
+    - VCF-2 (1U):
+      - Overview: archive/VCF-2/index.md
+      - Manual: archive/VCF-2/Manual.md
+
+    - VCA Duck:
+      - Overview: archive/VCA-Duck/index.md
+      - Manual: archive/VCA-Duck/Manual.md
   
   - Standalone:
+
     - Dronebox-1:
       - Overview: Standalone/Dronebox-1/index.md
       - Manual: Standalone/Dronebox-1/Manual.md
+    
+    - Synthcard:
+      - Overview: Standalone/Synthcard/index.md
+      - Manual: Standalone/Synthecard/Manual.md
 
   - Notes:
 

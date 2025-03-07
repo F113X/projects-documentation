@@ -1,1 +1,1 @@
-Here are all the other modules that I made, which are scrapped (or not?) due to various reasons.
+Here are all the other modules that I made, which are scrapped (or paused?) due to various reasons.
