@@ -1,6 +1,18 @@
 # 2399 Digital Delay Line
 
+[TOC]
+
 *Digital Delay Effects based on PT2399 Chip*
+
+# Specifications
+
+|Parameter|Value|
+|---------|-----|
+|Width|10HP|
+|Depth|-|
+|+12 Current|-|
+|-12 Current|-|
+|+5 Current|0mA|
 
 # Features
 

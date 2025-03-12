@@ -6,6 +6,17 @@
 
 # v0.1
 
+## Specifications
+
+|Parameter|Value|
+|---------|-----|
+|Width|-|
+|Height|1U Intellijel|
+|Depth|-|
+|+12 Current|-|
+|-12 Current|-|
+|+5 Current|0mA|
+
 ## Features
 - Based on René Schmitz's Design
 - Inputs for LP and HP
@@ -19,6 +30,17 @@
 
 # v0.2
 
+## Specifications
+
+|Parameter|Value|
+|---------|-----|
+|Width|-|
+|Height|1U Intellijel|
+|Depth|-|
+|+12 Current|-|
+|-12 Current|-|
+|+5 Current|0mA|
+
 ## Features
 - Fixed missing resistor found in v0.1
 - Fixed mislabel on silkscreen
@@ -29,3 +51,14 @@
 # v1.1
 
 ## Module has not been built or tested yet
+
+## Specifications
+
+|Parameter|Value|
+|---------|-----|
+|Width|-|
+|Height|1U Intellijel|
+|Depth|-|
+|+12 Current|-|
+|-12 Current|-|
+|+5 Current|0mA|

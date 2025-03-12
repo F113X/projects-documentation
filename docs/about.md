@@ -32,10 +32,10 @@
 |Snare|2|Snare Drum Voice|1|2hp|currently broken<br>(I broke it on accident)|[Original Site](https://www.twohp.com/modules/snare)|
 |Verb|2|Reverb Effects|1|2hp|-|[Original Site](https://www.twohp.com/modules/verb)|
 |Jove|14|Multimode VCF|1|diy opensource|one chip placed wrong<br>currently defective|[Original Opensource](https://github.com/minisystem/JOVE)|
-|Seq.4022|idk|8 Step Sequencer|1|diy|Predecessor/v0.1<br>of 4022 Eight Stage<br>Sequencer<br>[Link](Eurorack/4022-Eight-Stage-Sequencer/index.md)|[Opensource](https://github.com/F113X/Baby8-Seq)|
-|4022 Eight Stage<br>Sequencer|idk|8 Step Sequencer|1|diy|v1.1, [Link](Eurorack/4022-Eight-Stage-Sequencer/index.md)|[Opensource](https://github.com/F113X/Baby8-Seq)|
+|Seq.4022|idk|8 Step Sequencer|1|diy|Predecessor/v0.1<br>of 4022 Eight Stage<br>Sequencer<br>[Link](Eurorack/4022-Eight-Stage-Sequencer/index.md/#v01)|[Opensource](https://github.com/F113X/Baby8-Seq)|
+|4022 Eight Stage<br>Sequencer|idk|8 Step Sequencer|1|diy|v1.1, [Link](Eurorack/4022-Eight-Stage-Sequencer/index.md/#v11)|[Opensource](https://github.com/F113X/Baby8-Seq)|
 |migo|idk|3 Channel Mixer|2|diy opensource|1U|[Original Opensource](https://github.com/maasijam/eurorack/tree/master/1u/migo)|
-|VCF-2|idk|MS20 Style LP/HP VCF|1|diy|v0.2, [Link](archive/VCF-2/index.md)|[Opensource](https://github.com/F113X/MS20VCF-1U)|
-|VCF-2|idk|MS20 Style LP/HP VCF|2|diy|v0.1, [Link](archive/VCF-2/index.md)|[Opensource](https://github.com/F113X/MS20VCF-1U)|
+|VCF-2|idk|MS20 Style LP/HP VCF|1|diy|v0.2, [Link](archive/VCF-2/index.md/#v02)|[Opensource](https://github.com/F113X/MS20VCF-1U)|
+|VCF-2|idk|MS20 Style LP/HP VCF|2|diy|v0.1, [Link](archive/VCF-2/index.md/#v01)|[Opensource](https://github.com/F113X/MS20VCF-1U)|
 |USB A Power|2|USB A Power Jack|1|biti.tech|1u|[Original Opensource](https://github.com/KevinKeWang/1u_2hp_USB-A_power_jack?tab=readme-ov-file#1u_2hp_usb-a_power_jack)|
 |

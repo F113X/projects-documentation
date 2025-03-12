@@ -4,9 +4,23 @@
 
 *Hihat Generator based on Moritz Klein's Design*
 
+# Specifications
+
+|Parameter|Value|
+|---------|-----|
+|Width|6HP|
+|Depth|-|
+|+12 Current|-|
+|-12 Current|-|
+|+5 Current|0mA|
+
 # Features
 
-- tbu
+- Authentic 606/x0x style Hihat
+- Manual and CV control over Pitch
+- Bridged-T bandpass filter as Tone
+- CV control over Delay
+- Accent CV as offset for internal VCA
 
 # Quirks and Problems (v0.1)
 
