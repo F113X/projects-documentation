@@ -2,7 +2,7 @@
 
 [TOC]
 
-**This is the first module in the 2XX series of 1U utility module**
+**This is the first module in the 2XX series of 1U utility modules**
 
 *Dual Attenuverters*
 
