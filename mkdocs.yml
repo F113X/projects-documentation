@@ -17,6 +17,10 @@ nav:
       - Overview: Eurorack/4022-Eight-Stage-Sequencer/index.md
       - Manual: Eurorack/4022-Eight-Stage-Sequencer/Manual.md
 
+    - 201 Dual Attenuverters:
+      - Overview: Eurorack/201-Dual-Attenuverters/index.md
+      - Manual: Eurorack/201-Dual-Attenuverters/Manual.md
+
   - Archive:
 
     - Index: archive/index.md
