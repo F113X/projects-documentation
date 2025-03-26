@@ -20,6 +20,10 @@ nav:
     - 201 Dual Attenuverters:
       - Overview: Eurorack/201-Dual-Attenuverters/index.md
       - Manual: Eurorack/201-Dual-Attenuverters/Manual.md
+    
+    - 301 Variable Waveshape LFO:
+      - Overview: Eurorack/301-Variable-Waveshape-LFO/index.md
+      - Manual: Eurorack/301-Variable-Waveshape-LFO/Manual.md
 
   - Archive:
 
