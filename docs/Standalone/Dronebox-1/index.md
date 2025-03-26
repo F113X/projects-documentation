@@ -1,2 +1,2 @@
-![Panel-Refined](images/Panel-Refined.png)
+![Panel-Refined](Images/Panel-Refined.png)
 current prototype panel design
