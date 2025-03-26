@@ -39,3 +39,23 @@
 |VCF-2|idk|MS20 Style LP/HP VCF|2|diy|v0.1, [Link](archive/VCF-2/index.md/#v01)|[Opensource](https://github.com/F113X/MS20VCF-1U)|
 |USB A Power|2|USB A Power Jack|1|biti.tech|1u|[Original Opensource](https://github.com/KevinKeWang/1u_2hp_USB-A_power_jack?tab=readme-ov-file#1u_2hp_usb-a_power_jack)|
 |201 Dual Attenuverters|14hp|Dual Attenuverters|5|diy|v0.1,[Link](Eurorack/201-Dual-Attenuverters/index.md/#v01)|[Opensource](https://github.com/F113X/201-Dual-Attenuverters)|
+
+**Standalone**
+
+- Korg Minilogue
+- Korg Volca Beats
+- Korg Volca Nubass
+- Elektron Model:Cycles
+
+
+**MIDI**
+
+- Arturia MiniLab Mk2
+- Arturia MiniLab Mk3
+
+
+**Acoustic**
+
+-
+-
+-
