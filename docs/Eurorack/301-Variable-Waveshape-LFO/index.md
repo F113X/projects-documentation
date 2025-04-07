@@ -26,4 +26,6 @@
 
 ## Quirks and Problems
 
-- untested
+- Replaced 100R resistor with 300R resistor
+- Minimum frequency is 0 (could be good or bad depending on your needs)
+- Actually works great!
