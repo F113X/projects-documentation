@@ -4,7 +4,7 @@
 
 *Small S&H Based On MFOS Micro S&H Design*
 
-**This module has been scrapped because of the obolete JFET Transistor**
+**This module has been scrapped because of the obsolete JFET Transistor**
 
 # Specifications
 

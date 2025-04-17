@@ -56,12 +56,20 @@ nav:
     - VCA Duck:
       - Overview: archive/VCA-Duck/index.md
       - Manual: archive/VCA-Duck/Manual.md
+    
+    - Faderbanks:
+      - Overview: archive/Faderbanks/index.md
+      - Manual: archive/Faderbanks/Manual.md
   
   - Standalone:
 
     - Dronebox-1:
       - Overview: Standalone/Dronebox-1/index.md
       - Manual: Standalone/Dronebox-1/Manual.md
+    
+    - Percbox:
+      - Overview: Standalone/Percbox/index.md
+      - Manual: Standalone/Percbox/Manual.md
     
     - Synthcard:
       - Overview: Standalone/Synthcard/index.md

@@ -24,8 +24,8 @@
 
 ## Features
 
-- Dual Attenuverters each with an input, output and attenuvert knob
+- Dual attenuverters each with an input, output and attenuvert knob
 
 ## Quirks and Problems
 
-- untested
+- none
