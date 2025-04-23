@@ -38,7 +38,8 @@
 |VCF-2|idk|MS20 Style LP/HP VCF|1|diy|v0.2, [Link](archive/VCF-2/index.md/#v02)|[Opensource](https://github.com/F113X/MS20VCF-1U)|
 |VCF-2|idk|MS20 Style LP/HP VCF|2|diy|v0.1, [Link](archive/VCF-2/index.md/#v01)|[Opensource](https://github.com/F113X/MS20VCF-1U)|
 |USB A Power|2|USB A Power Jack|1|biti.tech|1u|[Original Opensource](https://github.com/KevinKeWang/1u_2hp_USB-A_power_jack?tab=readme-ov-file#1u_2hp_usb-a_power_jack)|
-|201 Dual Attenuverters|14hp|Dual Attenuverters|5|diy|v0.1,[Link](Eurorack/201-Dual-Attenuverters/index.md/#v01)|[Opensource](https://github.com/F113X/201-Dual-Attenuverters)|
+|201 Dual Attenuverters|14hp|Dual Attenuverters|5|diy|v0.1, [Link](Eurorack/201-Dual-Attenuverters/index.md/#v01)|[Opensource](https://github.com/F113X/201-Dual-Attenuverters)|
+|301 Variable Waveshape LFO|8hp|Variable Waveshape LFO|1|diy|v0.1, [Link](Eurorack/301-Variable-Waveshape-LFO/index.md/#v01)|[Opensource](https://github.com/F113X/301-Variable-Waveshape-LFO)|
 
 **Standalone**
 
