@@ -1,5 +1,7 @@
 # Percbox
 
+![percbox-0.1-1](Images/percbox-0.1-1.png)
+
 [TOC]
 
 *Percussion Box Complete With 5 Voices and 2 Sequencers*
@@ -18,4 +20,4 @@
 
 ## Quirks and Problems
 
-- Not built yet.
+- Mixer Op-Amp runs really hot (abnormal)
