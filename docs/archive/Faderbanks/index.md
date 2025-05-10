@@ -6,7 +6,7 @@
 
 # 6ch
 
-![6ch-panel](Images/6ch-panel.png)
+![6ch-panel-1](Images/6ch-panel-1.png)
 
 ## Specifications
 
