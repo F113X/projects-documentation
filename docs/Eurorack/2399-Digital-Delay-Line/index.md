@@ -1,5 +1,7 @@
 # 2399 Digital Delay Line
 
+![2399-0.1-1](Images/2399-0.1-1.png)
+
 [TOC]
 
 *Digital Delay Effects based on PT2399 Chip*

@@ -1,5 +1,7 @@
 # 301 Variable Waveshape LFO
 
+![301-0.1-1](Images/301-0.1-1.png)
+
 [TOC]
 
 *Super Flexible Analogue LFO*

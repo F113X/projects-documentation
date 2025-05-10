@@ -1,5 +1,7 @@
 # 606 Hihat Generator
 
+![606-0.1-1](Images/606-0.1-1.png)
+
 [TOC]
 
 *Hihat Generator based on Moritz Klein's Design*

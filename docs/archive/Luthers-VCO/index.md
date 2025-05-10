@@ -1,5 +1,7 @@
 # Luther's VCO
 
+![LuthersVCO-0.1-1](Images/LuthersVCO-0.1-1.png)
+
 [TOC]
 
 *V/OCT Capable VCO Based on PierrelsCoding's Design*
