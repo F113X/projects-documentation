@@ -9,13 +9,17 @@ nav:
       - Overview: Eurorack/2399-Digital-Delay-Line/index.md
       - Manual: Eurorack/2399-Digital-Delay-Line/Manual.md
     
+    - 4022 Eight Stage Sequencer:
+      - Overview: Eurorack/4022-Eight-Stage-Sequencer/index.md
+      - Manual: Eurorack/4022-Eight-Stage-Sequencer/Manual.md
+    
     - 606 Hihat Generator:
       - Overview: Eurorack/606-Hihat-Generator/index.md
       - Manual: Eurorack/606-Hihat-Generator/Manual.md
     
-    - 4022 Eight Stage Sequencer:
-      - Overview: Eurorack/4022-Eight-Stage-Sequencer/index.md
-      - Manual: Eurorack/4022-Eight-Stage-Sequencer/Manual.md
+    - 909 Kick Generator:
+      - Overview: Eurorack/909-Kick-Generator/index.md
+      - Manual: Eurorack/909-Kick-Generator/index.md
 
     - 201 Dual Attenuverters:
       - Overview: Eurorack/201-Dual-Attenuverters/index.md

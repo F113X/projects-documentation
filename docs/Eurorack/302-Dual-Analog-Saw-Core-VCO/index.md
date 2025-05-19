@@ -12,7 +12,7 @@
 |Parameter|Value|
 |---------|-----|
 |Width|14HP|
-|Depth|-|
+|Depth|~35mm (deepest)|
 |+12 Current|-|
 |-12 Current|-|
 |+5 Current|0mA|
@@ -21,9 +21,9 @@
 
 - Dual Oscillator Design
 - FM and PWM modulation inputs
-- 1V/Oct capable frequency input
+- Good 1V/Oct capabilities over several octaves
 - Coarse and fine tune frequecy knobs
 
 ## Quirks and Problems
 
-- Not built yet
+- Fine tune knob is placed the wrong way

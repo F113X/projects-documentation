@@ -6,25 +6,27 @@
 
 *Hihat Generator based on Moritz Klein's Design*
 
-# Specifications
+# v0.1
+
+## Specifications
 
 |Parameter|Value|
 |---------|-----|
 |Width|6HP|
-|Depth|-|
+|Depth|~35mm|
 |+12 Current|-|
 |-12 Current|-|
 |+5 Current|0mA|
 
-# Features
+## Features
 
 - Authentic 606/x0x style Hihat
 - Manual and CV control over Pitch
 - Bridged-T bandpass filter as Tone
-- CV control over Delay
+- CV control over Decay
 - Accent CV as offset for internal VCA
 
-# Quirks and Problems (v0.1)
+## Quirks and Problems
 
 - Pitch adjustment sounds weird, and FM is also weird
 - Decay can only be adjusted with a dummy cable connecting to the Decay CV input

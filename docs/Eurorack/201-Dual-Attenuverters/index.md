@@ -17,7 +17,7 @@
 |---------|-----|
 |Width|14HP|
 |Height|1U Intellijel|
-|Depth|-|
+|Depth|~15mm|
 |+12 Current|-|
 |-12 Current|-|
 |+5 Current|0mA|
