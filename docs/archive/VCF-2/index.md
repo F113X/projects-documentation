@@ -12,7 +12,7 @@
 |---------|-----|
 |Width|-|
 |Height|1U Intellijel|
-|Depth|-|
+|Depth|~35mm *skiff friendly*|
 |+12 Current|-|
 |-12 Current|-|
 |+5 Current|0mA|

@@ -12,7 +12,7 @@
 |Parameter|Value|
 |---------|-----|
 |Width|14HP|
-|Depth|~35mm (deepest)|
+|Depth|~35mm max. *skiff friendly*|
 |+12 Current|-|
 |-12 Current|-|
 |+5 Current|0mA|

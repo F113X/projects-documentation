@@ -9,7 +9,7 @@
 |Parameter|Value|
 |---------|-----|
 |Width|4HP|
-|Depth|-|
+|Depth|~20mm max. *skiff friendly*|
 |+12 Current|-|
 |-12 Current|-|
 |+5 Current|0mA|

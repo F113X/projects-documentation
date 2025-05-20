@@ -13,7 +13,7 @@
 |Parameter|Value|
 |---------|-----|
 |Width|8hp|
-|Depth|~15mm|
+|Depth|~15mm *skiff friendly*|
 |+12 Current|-|
 |-12 Current|-|
 |+5 Current|-|
