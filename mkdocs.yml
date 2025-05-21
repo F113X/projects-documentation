@@ -40,6 +40,10 @@ nav:
     - VCF-1:
       - Overview: archive/VCF-1/index.md
       - Manual: archive/VCF-1/Manual.md
+      
+    - VCF-2 (1U):
+      - Overview: archive/VCF-2/index.md
+      - Manual: archive/VCF-2/Manual.md
     
     - Luther's VCO:
       - Overview: archive/Luthers-VCO/index.md
@@ -56,10 +60,6 @@ nav:
     - Micro S&H:
       - Overview: archive/uS&H/index.md
       - Manual: archive/uS&H/Manual.md
-    
-    - VCF-2 (1U):
-      - Overview: archive/VCF-2/index.md
-      - Manual: archive/VCF-2/Manual.md
 
     - VCA Duck:
       - Overview: archive/VCA-Duck/index.md
