@@ -31,3 +31,4 @@
 - Replaced 100R resistor with 300R resistor
 - Minimum frequency is 0 (could be good or bad depending on your needs)
 - Actually works great!
+- Edit: I will consider adding a resistor to make the minimum frequency greater than 0 as otherwise the low frequencies don't work so well.
