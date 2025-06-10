@@ -15,7 +15,15 @@
 |v0.2 of 301|Not started|
 |v0.2 of 606|Not started|
 |v0.2 of 2399|Not started|
-|fix 4022|Not started
+|fix 4022|Not started|
+|Make Faderbanks 6ch|Not started|
+|v0.3 & new panel for Big Buttong pico|Not started|
+|Description & image for synthcard|Not started|
+|Image for VCF-1|Not started|
+|Image for v/oct calibrator|Not started|
+|Image for VCF-2|Not started|
+
+
 
 |Completed Items|Completion Date|
 |:-------------:|:-------------:|

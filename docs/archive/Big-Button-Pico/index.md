@@ -50,4 +50,4 @@
 
 - For some reason the code does not work anymore
 - Too hard to find SP6T switches, used a SP8T switch instead
-- I realized during development that the RPI Pico's ADC can only handly 3.3V, however I'm feeding it 5V, so analogue functions won't work
+- I realized during development that the RPI Pico's ADC can only handle 3.3V, however I'm feeding it 5V, so analogue functions won't work

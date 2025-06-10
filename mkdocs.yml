@@ -32,6 +32,10 @@ nav:
     - 302 Dual Analog Saw Core VCO:
       - Overview: Eurorack/302-Dual-Analog-Saw-Core-VCO/index.md
       - Manual: Eurorack/302-Dual-Analog-Saw-Core-VCO/Manual.md
+    
+    - 304 Quad Channel Voltage Controlled Mixer:
+      - Overview: Eurorack/304-Quad-Channel-Voltage-Controlled-Mixer/index.md
+      - Manual: Eurorack/304-Quad-Channel-Voltage-Controlled-Mixer/Manual.md
 
   - Archive:
 
