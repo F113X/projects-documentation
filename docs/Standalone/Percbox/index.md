@@ -20,4 +20,4 @@
 
 ## Quirks and Problems
 
-- Mixer Op-Amp runs really hot (abnormal)
+- Mixer Op-Amp(s) runs really hot (abnormal)

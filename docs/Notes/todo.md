@@ -22,8 +22,9 @@
 |Image for v/oct calibrator|Not started|
 |Image for VCF-2|Not started|
 |Manual for 304|Not started|
-|Complete 304 description|under progress 2025-06-18|
-|Complete 909 description|under progress 2025-06-18|
+|v0.2 of percbox mainboard|Not started|
+
+
 
 
 
@@ -31,3 +32,5 @@
 |:-------------:|:-------------:|
 |Finish Writing Description for uS&H|2025-05-21|
 |Complete 909|2025-05-24|
+|Complete 304 description|2025-06-18|
+|Complete 909 description|2025-06-18|
