@@ -28,4 +28,5 @@
 
 ## Quirks and Problems
 
-- Untested, currently missing a few components
+- Works fine, Tone knob can be considered backwards (cw = duller sound, ccw = brighter sound)
+- Does not trigger the same with all trigger signals, weak triggers can lead to weak sound.

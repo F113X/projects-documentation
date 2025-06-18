@@ -9,7 +9,6 @@
 |Manual for 909|Not started|
 |Manual for 2399|Not started|
 |Manual for 4022|Not started|
-|Complete 909|Under Progress 2025-05-21|
 |Complete Percbox|Under Progress 2025-05-21|
 |v0.2 of 302|Not started|
 |v0.2 of 301|Not started|
@@ -22,9 +21,13 @@
 |Image for VCF-1|Not started|
 |Image for v/oct calibrator|Not started|
 |Image for VCF-2|Not started|
+|Manual for 304|Not started|
+|Complete 304 description|under progress 2025-06-18|
+|Complete 909 description|under progress 2025-06-18|
 
 
 
 |Completed Items|Completion Date|
 |:-------------:|:-------------:|
 |Finish Writing Description for uS&H|2025-05-21|
+|Complete 909|2025-05-24|
