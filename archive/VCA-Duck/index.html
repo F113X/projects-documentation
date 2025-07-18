@@ -77,7 +77,7 @@
     <ul>
                 <li class="toctree-l2"><a class="reference internal" href="../../Eurorack/909-Kick-Generator/">Overview</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../Eurorack/909-Kick-Generator/">Overview</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../Eurorack/909-Kick-Generator/Manual/">Manual</a>
                 </li>
     </ul>
                   </li>
@@ -110,6 +110,14 @@
                 <li class="toctree-l2"><a class="reference internal" href="../../Eurorack/304-Quad-Channel-Voltage-Controlled-Mixer/">Overview</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../Eurorack/304-Quad-Channel-Voltage-Controlled-Mixer/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >305 Analogue Stochastic Signal Generators</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../Eurorack/305-Analogue-Stochastic-Signal-Generators/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../Eurorack/305-Analogue-Stochastic-Signal-Generators/Manual/">Manual</a>
                 </li>
     </ul>
                   </li>
@@ -244,6 +252,67 @@
               
                 <h1 id="vca-duck">VCA Duck</h1>
 <p><img alt="VCADuck-0.1-1" src="Images/VCADuck-0.1-1.png" /></p>
+<div class="toc">
+<ul>
+<li><a href="#vca-duck">VCA Duck</a></li>
+<li><a href="#v01">v0.1</a><ul>
+<li><a href="#specifications">Specifications</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#quirks-and-problems">Quirks and Problems</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p><em>Simple and Flexible Solution for Kick Sidechaining, Based on sdiy Luther's Design</em></p>
+<h1 id="v01">v0.1</h1>
+<h2 id="specifications">Specifications</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Width</td>
+<td>10HP</td>
+</tr>
+<tr>
+<td>Depth</td>
+<td>~35mm <em>skiff friendly</em></td>
+</tr>
+<tr>
+<td>+12 Current</td>
+<td>-</td>
+</tr>
+<tr>
+<td>-12 Current</td>
+<td>-</td>
+</tr>
+<tr>
+<td>+5 Current</td>
+<td>0mA</td>
+</tr>
+</tbody>
+</table>
+<h2 id="features">Features</h2>
+<ul>
+<li>Seperate inputs for Kick track and all other tracks</li>
+<li>Switchable envelope follower/internal envelope for VCA modulation with indicator LED</li>
+<li>Selectable Kick/Signal/Mix output</li>
+<li>Gate in to manually trigger envelope</li>
+<li>External envelope input and envelope output</li>
+<li>Decay control for internal envelope and envelope follower</li>
+<li>Crossfading bias control for signal and kick tracks</li>
+<li>Controllable kick volume</li>
+<li>Attenuate and attenuvert the envelope for different amounts of VCA modulation</li>
+</ul>
+<h2 id="quirks-and-problems">Quirks and Problems</h2>
+<ul>
+<li>Works very well</li>
+<li>Envelope out is before the attenuverter, so the signal is always positive (not neccessarily a problem, but is good to know)</li>
+</ul>
               
             </div>
           </div><footer>

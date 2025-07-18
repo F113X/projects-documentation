@@ -13,7 +13,7 @@
       <script>
         // Current page data
         var mkdocs_page_name = "Overview";
-        var mkdocs_page_input_path = "Eurorack/304-Quad-Channel-Voltage-Controlled-Mixer/index.md";
+        var mkdocs_page_input_path = "Eurorack/305-Analogue-Stochastic-Signal-Generators/index.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -105,21 +105,21 @@
                 </li>
     </ul>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" >304 Quad Channel Voltage Controlled Mixer</a>
+                  <li class="toctree-l1"><a class="reference internal" >304 Quad Channel Voltage Controlled Mixer</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../304-Quad-Channel-Voltage-Controlled-Mixer/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../304-Quad-Channel-Voltage-Controlled-Mixer/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >305 Analogue Stochastic Signal Generators</a>
     <ul class="current">
                 <li class="toctree-l2 current"><a class="reference internal current" href="#">Overview</a>
     <ul class="current">
     </ul>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="Manual/">Manual</a>
-                </li>
-    </ul>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" >305 Analogue Stochastic Signal Generators</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../305-Analogue-Stochastic-Signal-Generators/">Overview</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../305-Analogue-Stochastic-Signal-Generators/Manual/">Manual</a>
                 </li>
     </ul>
                   </li>
@@ -240,7 +240,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">Eurorack</li>
-          <li class="breadcrumb-item">304 Quad Channel Voltage Controlled Mixer</li>
+          <li class="breadcrumb-item">305 Analogue Stochastic Signal Generators</li>
       <li class="breadcrumb-item active">Overview</li>
     <li class="wy-breadcrumbs-aside">
     </li>
@@ -250,11 +250,11 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="304-quad-channel-voltage-controlled-mixer">304 Quad Channel Voltage Controlled Mixer</h1>
+                <h1 id="title">Title</h1>
 <p><img alt="img" src="Images/img" /></p>
 <div class="toc">
 <ul>
-<li><a href="#304-quad-channel-voltage-controlled-mixer">304 Quad Channel Voltage Controlled Mixer</a></li>
+<li><a href="#title">Title</a></li>
 <li><a href="#v01">v0.1</a><ul>
 <li><a href="#specifications">Specifications</a></li>
 <li><a href="#features">Features</a></li>
@@ -263,7 +263,7 @@
 </li>
 </ul>
 </div>
-<p><em>Quad VCAs or 2/3/4 channel Mixer</em></p>
+<p><em>Collection of Utilitarian Random Signal Generators</em></p>
 <h1 id="v01">v0.1</h1>
 <h2 id="specifications">Specifications</h2>
 <table>
@@ -276,7 +276,7 @@
 <tbody>
 <tr>
 <td>Width</td>
-<td>10HP</td>
+<td>10hp</td>
 </tr>
 <tr>
 <td>Depth</td>
@@ -298,21 +298,23 @@
 </table>
 <h2 id="features">Features</h2>
 <ul>
-<li>Four channels of seperate/mixed VCAs</li>
-<li>Attenuators for CV modulation</li>
-<li>Sliders for adjusting volume</li>
-<li>Internal normalisation: if channel output not plugged in, automatically mixes signal into channel 4 out (mix out), the module can be used as four seperate VCAs and a four channel VC mixer and everything in between</li>
+<li>Based on Moritz Klein's design</li>
+<li>Analogue noise generator with three colours of noise (white, pink, blue)</li>
+<li>Jfet based S&amp;H circuit with an input attenuator which is externally triggered.</li>
+<li>Slew rate limiter with slew amount control</li>
+<li>Two random triggers/gates (configurable with pins on the back) using comparators and the S&amp;H signal with adjustable threshold</li>
+<li>Internal normalisations (Noise -&gt; S&amp;H -&gt; Slew) that can be overridden with switched jacks.</li>
 </ul>
 <h2 id="quirks-and-problems">Quirks and Problems</h2>
 <ul>
-<li>Mostly works fine, some channels overdrive sometimes, some channel leaks sound when volume is fully down, mixer chip (TL072) becomes hot (IDK if that's normal)</li>
-<li>sliders are logarithmic, but I can't notice it during use.</li>
+<li>S&amp;H currently doesn't work, I think my batch of jfets are bad</li>
+<li>Pink noise sounds wrong (not lowpass-ed, but grainy)</li>
 </ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../302-Dual-Analog-Saw-Core-VCO/Manual/" class="btn btn-neutral float-left" title="Manual"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../304-Quad-Channel-Voltage-Controlled-Mixer/Manual/" class="btn btn-neutral float-left" title="Manual"><span class="icon icon-circle-arrow-left"></span> Previous</a>
         <a href="Manual/" class="btn btn-neutral float-right" title="Manual">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
@@ -336,7 +338,7 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../302-Dual-Analog-Saw-Core-VCO/Manual/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../304-Quad-Channel-Voltage-Controlled-Mixer/Manual/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
       <span><a href="Manual/" style="color: #fcfcfc">Next &raquo;</a></span>
