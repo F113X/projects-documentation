@@ -19,7 +19,7 @@ nav:
     
     - 909 Kick Generator:
       - Overview: Eurorack/909-Kick-Generator/index.md
-      - Manual: Eurorack/909-Kick-Generator/index.md
+      - Manual: Eurorack/909-Kick-Generator/Manual.md
 
     - 201 Dual Attenuverters:
       - Overview: Eurorack/201-Dual-Attenuverters/index.md
@@ -36,6 +36,10 @@ nav:
     - 304 Quad Channel Voltage Controlled Mixer:
       - Overview: Eurorack/304-Quad-Channel-Voltage-Controlled-Mixer/index.md
       - Manual: Eurorack/304-Quad-Channel-Voltage-Controlled-Mixer/Manual.md
+      
+    - 305 Analogue Stochastic Signal Generators:
+      - Overview: Eurorack/305-Analogue-Stochastic-Signal-Generators/index.md
+      - Manual: Eurorack/305-Analogue-Stochastic-Signal-Generators/Manual.md
 
   - Archive:
 
