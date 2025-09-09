@@ -46,7 +46,8 @@
 
 # Features
 
-- Nothing has been changed compared to the previous version, except for the JFET wiring issue resolved.
+- JFET wiring issue resolved
+- Slightly adjust wiring of pink noise circuit just in case it is the reason the issues are caused 
 
 ## Quirks and Problems
 
