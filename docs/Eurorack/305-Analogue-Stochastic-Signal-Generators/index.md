@@ -29,5 +29,25 @@
 
 ## Quirks and Problems
 
-- S&H currently doesn't work, I think my batch of jfets are bad
-- Pink noise sounds wrong (not lowpass-ed, but grainy)
+- S&H section currently doesn't work, I think my batch of jfets are bad (edit: it turns out I may have misunderstood the pinout of the jfet and connected the Gate and Source the wrong way around)
+- Pink noise sounds wrong (not lowpass-ed, but grainy), I think I used a bad capacitor (looking at my previous claims, I may be wrong again)
+
+# v0.2
+
+## Specifications
+
+|Parameter|Value|
+|---------|-----|
+|Width|10hp|
+|Depth|~35mm *skiff friendly*|
+|+12 Current|-|
+|-12 Current|-|
+|+5 Current|0mA|
+
+# Features
+
+- Nothing has been changed compared to the previous version, except for the JFET wiring issue resolved.
+
+## Quirks and Problems
+
+**HAS NOT BEEN TESTED YET**
