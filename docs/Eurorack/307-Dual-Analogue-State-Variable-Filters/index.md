@@ -20,7 +20,8 @@
 
 ## Features
 
--
+- Dual SVFs based on Thomas Henry's VCF-1 design
+- VC resonance on both filters
 
 ## Quirks and Problems
 
