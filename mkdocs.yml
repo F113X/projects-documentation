@@ -40,6 +40,14 @@ nav:
     - 305 Analogue Stochastic Signal Generators:
       - Overview: Eurorack/305-Analogue-Stochastic-Signal-Generators/index.md
       - Manual: Eurorack/305-Analogue-Stochastic-Signal-Generators/Manual.md
+    
+    - 306 Voltage Controlled Envelope Generator:
+      - Overview: Eurorack/306-Voltage-Controlled-Envelope-Generator/index.md
+      - Manual: Eurorack/306-Voltage-Controlled-Envelope-Generator/Manual.md
+    
+    - 307 Dual Analogue State Variable Filters:
+      - Overview: Eurorack/307-Dual-Analogue-State-Variable-Filters/index.md
+      - Manual: Eurorack/307-Dual-Analogue-State-Variable-Filters/Manual.md
 
   - Archive:
 
