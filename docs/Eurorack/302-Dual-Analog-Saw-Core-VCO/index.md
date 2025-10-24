@@ -1,5 +1,7 @@
 # 302 Dual Analog Saw Core VCO
 
+![img](Images/302-0.1-1.png)
+
 [TOC]
 
 *Dual Analog Saw Core VCOs based on Moritz Klein's Design*

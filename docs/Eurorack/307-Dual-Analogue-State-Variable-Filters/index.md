@@ -1,6 +1,6 @@
 # 307 Dual Analogue State Variable Filters
 
-![img](Images/img)
+![img](Images/307-0.1-1.png)
 
 [TOC]
 
