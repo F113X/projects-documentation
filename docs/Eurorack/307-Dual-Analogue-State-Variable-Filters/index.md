@@ -37,3 +37,4 @@
 - Output selection works, until it fried the CD4017 chip on VCF2 (unknown reason, it still works on VCF1, perhaps I just accidentally connected the two boards wrong when testing leading to misaligned pins)
 - Cutoff Frequency indication LED does not really light up, which is abnormal as they should at least light up when there is CV inputs
 - Other features untested as the inputs are not output
+- See story time in [308](/Eurorack/308-Voltage-Controlled-Filter-And-Wavefolder/#quirks-and-problems)

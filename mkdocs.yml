@@ -48,6 +48,10 @@ nav:
     - 307 Dual Analogue State Variable Filters:
       - Overview: Eurorack/307-Dual-Analogue-State-Variable-Filters/index.md
       - Manual: Eurorack/307-Dual-Analogue-State-Variable-Filters/Manual.md
+    
+    - 308 Voltage Controlled Filter & Wavefolder:
+      - Overview: Eurorack/308-Voltage-Controlled-Filter-And-Wavefolder/index.md
+      - Manual: Eurorack/308-Voltage-Controlled-Filter-And-Wavefolder/Manual.md
 
   - Archive:
 
