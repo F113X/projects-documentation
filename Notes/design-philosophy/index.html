@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Overview - F113X</title>
+    <title>Design Philosophy 2026 - F113X</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Overview";
-        var mkdocs_page_input_path = "Standalone/Dronebox-1/index.md";
+        var mkdocs_page_name = "Design Philosophy 2026";
+        var mkdocs_page_input_path = "Notes/design-philosophy.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -224,37 +224,39 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Standalone</span></p>
-              <ul class="current">
-                  <li class="toctree-l1 current"><a class="reference internal current" >Dronebox-1</a>
-    <ul class="current">
-                <li class="toctree-l2 current"><a class="reference internal current" href="#">Overview</a>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Dronebox-1</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../Standalone/Dronebox-1/">Overview</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="Manual/">Manual</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../Standalone/Dronebox-1/Manual/">Manual</a>
                 </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" >Percbox</a>
     <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../Percbox/">Overview</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../Standalone/Percbox/">Overview</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../Percbox/Manual/">Manual</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../Standalone/Percbox/Manual/">Manual</a>
                 </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" >Synthcard</a>
     <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../Synthcard/">Overview</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../Standalone/Synthcard/">Overview</a>
                 </li>
-                <li class="toctree-l2"><a class="" href="../Synthecard/Manual.md">Manual</a>
+                <li class="toctree-l2"><a class="" href="../../Standalone/Synthecard/Manual.md">Manual</a>
                 </li>
     </ul>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Notes</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../Notes/todo/">Todo List</a>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../todo/">Todo List</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../Notes/design-philosophy/">Design Philosophy 2026</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Design Philosophy 2026</a>
+    <ul class="current">
+    </ul>
                   </li>
               </ul>
       </div>
@@ -271,9 +273,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
-          <li class="breadcrumb-item">Standalone</li>
-          <li class="breadcrumb-item">Dronebox-1</li>
-      <li class="breadcrumb-item active">Overview</li>
+          <li class="breadcrumb-item">Notes</li>
+      <li class="breadcrumb-item active">Design Philosophy 2026</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -282,14 +283,79 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <p><img alt="Panel-Refined" src="Images/Panel-Refined.png" />
-current prototype panel design</p>
+                <p>I'm not sure how to call this, but it is basically the overarching concept of my stuff. </p>
+<p>Through the past 2 years of learning about, designing, and making synthesizer modules, I have constucted an idea of how I want my modules to be like. The following article (or text) will guide the developments of future modules, and may also partially reflect my previous modules. </p>
+<p><em>Please note that everything here may change in the future, but as of 2026 it is how I will proceed</em></p>
+<div class="toc">
+<ul>
+<li><a href="#precision">Precision</a></li>
+<li><a href="#randomness">Randomness</a></li>
+<li><a href="#pure-tone-vs-noise">Pure Tone vs Noise</a></li>
+<li><a href="#limitations">Limitations</a></li>
+<li><a href="#interface">Interface</a></li>
+<li><a href="#cohesion">Cohesion</a></li>
+<li><a href="#production">Production</a></li>
+<li><a href="#sources-of-inspiration">Sources of inspiration</a><ul>
+<li><a href="#xaoc-devices">Xaoc Devices</a></li>
+<li><a href="#buchla">Buchla</a></li>
+<li><a href="#serge">Serge</a></li>
+<li><a href="#verbos-electronics">Verbos Electronics</a></li>
+<li><a href="#erica-synths">Erica Synths</a></li>
+<li><a href="#the-human-comparator">The Human Comparator</a></li>
+<li><a href="#music-thing-modular">Music Thing Modular</a></li>
+<li><a href="#mengqi-music-btw-i-like-his-original-website-better">Mengqi Music (btw i like his original website better)</a></li>
+<li><a href="#others">Others</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h1 id="precision">Precision</h1>
+<p>First of all, I dislike unwanted unpredictablity. It's probably due to the test equipment content from <a href="https://www.hainbachmusik.com/">Hainbach</a> that I consume way to much. I want my modules to be precise and accurate, no unstable behaviors such as unwanted distortion, drifting, or others. </p>
+<p>For example, a VCO should be temperature compensated ensuring minimal drifting, have the full range or better (20-20k Hz), low distortion in harmonically pure waveforms, and a good enough v/oct tracking that I don't hear it during use. (I don't have perfect pitch, but the <a href="/docs/Eurorack/302-Dual-Analog-Saw-Core-VCO/index.md">302</a> VCO tracks pretty darn well with minimal calibration, though I might want a bit more than that) </p>
+<p>Of course, absolute precision is impossible, and I am far from being able to optimise circuits to a high degree as well as being too lazy for extra steps in the construction such as applying thermal paste (hopefully that laziness goes away), so I will probably still utilize janky solutions anyways. </p>
+<p>With that said, it is probably obvious that my definition of precision is not surgical, but still up to some standards. </p>
+<h1 id="randomness">Randomness</h1>
+<p>However, that doesn't mean I dislike randomness or using modules creatively, because that is boring. I just want the module to do exactly what it says on the cover if you use it the "right" way.</p>
+<p>The <a href="https://buchla.com/product/266/">Buchla 266 Source of Uncertainty</a> is a wonderful demonstration of precision while still yielding randomized results. It provides a large variety of controls and quantisation possibilities for the user to decide how random the signal will be. </p>
+<p>In conclusion, I'd probably say I like the concept of "controlled randomness", if that's a good way to put it. </p>
+<h1 id="pure-tone-vs-noise">Pure Tone vs Noise</h1>
+<p>Recently I've grown increasingly attracted to pure waveforms such as sine and triangle. </p>
+<h1 id="limitations">Limitations</h1>
+<p>It is difficult to decide how much freedom you want to give the user. Everytime I wanted to make a standalone device, I always wanted to give the user every single control possible, and it is getting clearer and clearer to me that this will make the device boring to play with. </p>
+<p>This was until I've discovered the <a href="https://thehumancomparator.net/eimto.html">THC EIMTO</a>, which only have 10 controls, but looks insanely fun to play with. This directly inspired me to draw up designs for the <a href="/docs/Standalone/Dronebox-1/index.md">Dronebox 1 (no offical name yet)</a>, which still has "too many" controls and is not produced yet. </p>
+<h1 id="interface">Interface</h1>
+<p>It should be quite obvious that I like big knobs, but interface is not just about knobs, obviously.</p>
+<p>Recently, I wanted to make a touch controller of some sort, which can be used a keyboard, sequencer, arppegiator, and other purposes. I also hope for it to have position and pressure sensing capabilities, similar to the <a href="https://www.verboselectronics.com/modules/mini-horse">Verbos Electronics Mini Horse</a>. I have no idea how to achieve all of this yet, but it should be a good insight to my concept of interfacing. </p>
+<p>I'm not sure if I really like new or "gestural interfaces", I sure wouldn't want to use fruits as CV sources (yet), I just want something that is super intuitive and hands on to use, while still having some degree of expressiveness.  </p>
+<h1 id="cohesion">Cohesion</h1>
+<p>I always wanted to make a independent, cohesive system that has great flexibility, and I have always been designing my modules with this overarching structure. (though most of my modules still follow my needs of the time, but I still consider this when making new modules)</p>
+<p>Panel aesthetics should be consistant</p>
+<h1 id="production">Production</h1>
+<p>I generally avoid IC's and components that are rare, expensive, or obsolete. I <em>could</em> explain this with the standard answer of "I hope others can make or repair it just as easily" or something like that, but even though that is partially true, the main reasons already existed when I just started out, and it boils down to 2 points:</p>
+<ol>
+<li>I have a budget too. This is why I generally avoid slightly expensive stuff, especially when I'm not 100% sure if it will work or not. </li>
+<li>I have a trusted components supplier and I hope to get my components from exclusively, because I don't trust the small sketchy distributers and they generally have higher shipping fees. However, my supplier doesn't stock most rare chips such as the 33XX chips or similar. This also explains why I use LM13700s, because my supplier stocks them (luckily). I recently realised how difficult it is for some people to obtain LM13700s, so I will probably reduce its use for VCAs, and only use them when absolutely necessary. </li>
+</ol>
+<h1 id="sources-of-inspiration">Sources of inspiration</h1>
+<p>This section will just list some of the sources that inspired and shaped my conception of sound synthesis, as well as some descriptions of what inspired me. There is no specific order to the list. </p>
+<h2 id="xaoc-devices"><a href="http://xaocdevices.com/main/">Xaoc Devices</a></h2>
+<p>This is one of the largest influences to me. </p>
+<p>If it wasn't obvious already (it probably wasn't lol), my panel designs are largely inspired by Xoac Devices' modules. My panels do not emphasize it as much as theirs, but it has a "lab grade" feel to it. All the knobs are so clearly marked out, and everything fits together so well that it feels like you could actually do scientific experiments with it. Although I don't own any of their modules (or any from the other brands), I just could see how the modules can work together perfectly, as well as the <a href="http://xaocdevices.com/main/drezno/">Leibniz Subsystem</a>, which is a wonder on its own. The module that introduced me to Xaoc is <a href="http://xaocdevices.com/main/belgrad/">Belgrad</a>, which offers so much flexibility with such a simple concept. Also, the big knobs are just begging for use, and the layout is so easy to understand. </p>
+<h2 id="buchla">Buchla</h2>
+<h2 id="serge">Serge</h2>
+<h2 id="verbos-electronics"><a href="https://www.verboselectronics.com/">Verbos Electronics</a></h2>
+<h2 id="erica-synths">Erica Synths</h2>
+<h2 id="the-human-comparator">The Human Comparator</h2>
+<h2 id="music-thing-modular">Music Thing Modular</h2>
+<h2 id="mengqi-music-btw-i-like-his-original-website-better"><a href="https://www.mengqimusic.com/">Mengqi Music</a> (btw i like his original website better)</h2>
+<h2 id="others">Others</h2>
+<p>It's important to recognise that brands other than the ones mentioned above have also greatly influenced my </p>
+<p>Roland, Moog, Korg, and all the big brands should definitely be recognised, and I have also looked deeply into their work. Other synth DIYers such as LMNC, Rene Schmitz, Moritz Klein, and others are all people that I look up to. I've felt a need to address this, as those are who brought me to synthesizer and DIY in the first place. </p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../../archive/Faderbanks/Manual/" class="btn btn-neutral float-left" title="Manual"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="Manual/" class="btn btn-neutral float-right" title="Manual">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../todo/" class="btn btn-neutral float-left" title="Todo List"><span class="icon icon-circle-arrow-left"></span> Previous</a>
     </div>
 
   <hr/>
@@ -312,10 +378,8 @@ current prototype panel design</p>
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../../archive/Faderbanks/Manual/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../todo/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-    
-      <span><a href="Manual/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
