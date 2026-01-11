@@ -11,7 +11,7 @@ Through the past 2 years of learning about, designing, and making synthesizer mo
 
 First of all, I dislike unwanted unpredictablity. It's probably due to the test equipment content from [Hainbach](https://www.hainbachmusik.com/) that I consume way to much. I want my modules to be precise and accurate, no unstable behaviors such as unwanted distortion, drifting, or others. 
 
-For example, a VCO should be temperature compensated ensuring minimal drifting, have the full range or better (20-20k Hz), low distortion in harmonically pure waveforms, and a good enough v/oct tracking that I don't hear it during use. (I don't have perfect pitch, but the [302](/docs/Eurorack/302-Dual-Analog-Saw-Core-VCO/index.md) VCO tracks pretty darn well with minimal calibration, though I might want a bit more than that) 
+For example, a VCO should be temperature compensated ensuring minimal drifting, have the full range or better (20-20k Hz), low distortion in harmonically pure waveforms, and a good enough v/oct tracking that I don't hear it during use. (I don't have perfect pitch, but the [302](Eurorack/302-Dual-Analog-Saw-Core-VCO/index.md) VCO tracks pretty darn well with minimal calibration, though I might want a bit more than that) 
 
 Of course, absolute precision is impossible, and I am far from being able to optimise circuits to a high degree as well as being too lazy for extra steps in the construction such as applying thermal paste (hopefully that laziness goes away), so I will probably still utilize janky solutions anyways. 
 
@@ -33,7 +33,7 @@ Recently I've grown increasingly attracted to pure waveforms such as sine and tr
 
 It is difficult to decide how much freedom you want to give the user. Everytime I wanted to make a standalone device, I always wanted to give the user every single control possible, and it is getting clearer and clearer to me that this will make the device boring to play with. 
 
-This was until I've discovered the [THC EIMTO](https://thehumancomparator.net/eimto.html), which only have 10 controls, but looks insanely fun to play with. This directly inspired me to draw up designs for the [Dronebox 1 (no offical name yet)](/docs/Standalone/Dronebox-1/index.md), which still has "too many" controls and is not produced yet. 
+This was until I've discovered the [THC EIMTO](https://thehumancomparator.net/eimto.html), which only have 10 controls, but looks insanely fun to play with. This directly inspired me to draw up designs for the [Dronebox 1 (no offical name yet)](Standalone/Dronebox-1/index.md), which still has "too many" controls and is not produced yet. 
 
 # Interface
 
