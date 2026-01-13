@@ -1,4 +1,4 @@
-# Title
+# 305 Analogue Stochastic Signal Generators
 
 ![img](Images/img)
 

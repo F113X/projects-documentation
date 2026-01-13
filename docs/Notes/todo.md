@@ -1,3 +1,6 @@
+*You know what, just scrap this todo list. It is way too long rn that it doesn't help keep track of anything. Also I'm just to lazy to update it.*
+
+
 |Item|Progress|
 |:--:|:------:|
 |Write Manual for Big Button Pico|Not started|

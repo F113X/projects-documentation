@@ -3,6 +3,10 @@ nav:
   - Home: index.md
   - About: about.md
 
+  - Notes:
+    - Todo List: Notes/todo.md
+    - Design Philosophy 2026: Notes/design-philosophy.md
+
   - Eurorack:
 
     - 2399 Digital Delay Line: 
@@ -106,12 +110,6 @@ nav:
     - Synthcard:
       - Overview: Standalone/Synthcard/index.md
       - Manual: Standalone/Synthecard/Manual.md
-
-  - Notes:
-
-    - Todo List: Notes/todo.md
-    - Design Philosophy 2026: Notes/design-philosophy.md
-  
 
 theme: 
   name: readthedocs

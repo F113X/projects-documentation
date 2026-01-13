@@ -58,30 +58,64 @@ I generally avoid IC's and components that are rare, expensive, or obsolete. I *
 
 # Sources of inspiration
 
-This section will just list some of the sources that inspired and shaped my conception of sound synthesis, as well as some descriptions of what inspired me. There is no specific order to the list. 
+This section will just list some of the sources that inspired and shaped my conception of sound synthesis, as well as some descriptions of what inspired me. There is no specific order to the list. BTW the subtitles are links if you wanted to check these brands out for yourself. 
+
+**I am not affiliated with the brands mentioned below in any way, they just really brought me a long way. I will put links, as I really want others to look into the things for themselves.**
 
 ## [Xaoc Devices](http://xaocdevices.com/main/)
 
-This is one of the largest influences to me. 
+This is one of the largest influences to me. I've spent literal hours in their website just reading the descriptions over and over. 
 
 If it wasn't obvious already (it probably wasn't lol), my panel designs are largely inspired by Xoac Devices' modules. My panels do not emphasize it as much as theirs, but it has a "lab grade" feel to it. All the knobs are so clearly marked out, and everything fits together so well that it feels like you could actually do scientific experiments with it. Although I don't own any of their modules (or any from the other brands), I just could see how the modules can work together perfectly, as well as the [Leibniz Subsystem](http://xaocdevices.com/main/drezno/), which is a wonder on its own. The module that introduced me to Xaoc is [Belgrad](http://xaocdevices.com/main/belgrad/), which offers so much flexibility with such a simple concept. Also, the big knobs are just begging for use, and the layout is so easy to understand. 
 
 ## Buchla
 
-## Serge
+
+
+## [Serge](https://serge-modular.com/)
+
+This was also one of the first brand I've known of (before knowing Eurorack even!), due to the videos I watched, which happened to be mostly using Serge instruments. I'm not sure whether I've even grasped what the modules do yet, so honestly there is not much to say, it is mostly the exterior design and the overall cohesiveness (you can make a whole system of only Serge and make wonderful stuff) that got me. This will probably be mentioned several times later, as I believe beautiful products really helps users discover more potential (I would probably prefer a beautiful product over an ugly one, even if they had the same functionality). 
 
 ## [Verbos Electronics](https://www.verboselectronics.com/)
 
-## Erica Synths
+There is not much to be said about this brand, mostly just aesthetics, cohesiveness, and creative product design that gave me many new ideas. 
 
-## The Human Comparator
+## [Erica Synths](https://www.ericasynths.lv/)
+
+A significant portion of my circuits originally come from the EDU series, which is a collaboration project between Moritz Klein and Erica Synths. It is probably to a point where even if I encounter problems in other circuits, I will refer to the manuals of this series as it makes things so easy to understand, and honestly the modules they put out are basic building blocks of a synthesizer, so it's basically applicable anywhere. 
+
+## [The Human Comparator](https://thehumancomparator.net/)
+
+This brand mostly inspires me from the clean, elegant product design. Each product feels like an art piece, and the website is like an art gallery. There is also so little information on this brand, I've only found a couple of videos that Hainbach made on two of their products, and it is quite hard to figure out the true potential of the products just by looking at panels and different documents in the website. 
 
 ## Music Thing Modular
 
 ## [Mengqi Music](https://www.mengqimusic.com/) (btw i like his original website better)
 
+Remember when I said that I disliked new gestural interfaces? This section will contradict with that *slightly*. 
+
+As one of the first smaller brands I've encountered during my synthesizer journey, Mengqi Music really was an eye-opener. One of the first instruments that I knew about is the [Wing Pinger](https://www.mengqimusic.com/wingpinger-introduction), which is such a simple instrument on the surface but so fun and deep to experiment with. 
+
+His instruments also opened a new door to several other synth creators which also went on to inspire me, e.g Peter Blasser, Rob Hordijk etc, but I will probably not write whole sections on those creators, as it would become too complicated too quickly. Just know that I've tried to make P. Blasser's circuites several times with no avail, and didn't even attempt Rob Hordijk's work because of rare components. 
+
+The attention for detail is also insane, as I've met him once and he told us that one reason the Wing Pinger is so expensive is because he took a long time to find the best potentiometers, and nothing other than a very expensive one that matched his desired resistance and smoothness exactly. 
+
+Also his archive just has some of the most beautiful instruments I've ever seen and it's just nice to look at, even though there is also minimal information on most of them. 
+
+I now own the DPLPG (not on his site, dual passive lopass gate) and the [Wingie2](https://www.mengqimusic.com/wingie2-introduction), and both are absolute inpirations and fun to play with in general. 
+
 ## Others
 
-It's important to recognise that brands other than the ones mentioned above have also greatly influenced my 
+It is important to mention that just because some brands weren't mentioned above doesn't mean I haven't looked into their work and/or is inspired by their work. It's just not to such a high degree or I forgot to add them in the time of writing. 
 
 Roland, Moog, Korg, and all the big brands should definitely be recognised, and I have also looked deeply into their work. Other synth DIYers such as LMNC, Rene Schmitz, Moritz Klein, and others are all people that I look up to. I've felt a need to address this, as those are who brought me to synthesizer and DIY in the first place. 
+
+Here are some others that deserved to be mentioned:
+
+Music from Outer Space
+
+Yusynth
+
+Benjiao Modular
+
+modular.khiat (Their site is down)
