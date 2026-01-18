@@ -13,7 +13,8 @@
 |Parameter|Value|
 |---------|-----|
 |Width|14hp|
-|Depth|-|
+|Height|1U Intellijel|                          
+|Depth|~15mm *skiff friendly*|
 |+12 Current|0mA|
 |-12 Current|0mA|
 |+5 Current|0mA|

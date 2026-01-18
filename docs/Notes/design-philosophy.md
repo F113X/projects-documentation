@@ -65,6 +65,12 @@ I generally avoid IC's and components that are rare, expensive, or obsolete. I *
 1. I have a budget too. This is why I generally avoid slightly expensive stuff, especially when I'm not 100% sure if it will work or not. 
 2. I have a trusted components supplier and I hope to get my components from exclusively, because I don't trust the small sketchy distributers and they generally have higher shipping fees. However, my supplier doesn't stock most rare chips such as the 33XX chips or similar. This also explains why I use LM13700s, because my supplier stocks them (luckily). I recently realised how difficult it is for some people to obtain LM13700s, so I will probably reduce its use for VCAs, and only use them when absolutely necessary. 
 
+For the PCBs, I try to stay as *BOM free* as possible, because of my laziness to compile a BOM. This is why I put component values next to every single component where this is necessary, and don't have component designators. I also don't make official schematics, but I have a collection of all the schematics and the mods I've made to them. So sorry to whoever tries to replicate me stuff :P
+
+This generally should be fine as long as I'm still using thru-hole components, but as soon as I make SMD stuff it will be a royal PITA for whoever tries to build it other than me. Or a royal PITA for me because I use the same footprints for everything and it would be really annoying for me to make the BOM and pick and place files. 
+
+This is quite unprofessional of my part, but I'm too lazy to make any changes regarding this unless someone requests help. 
+
 # Sources of inspiration
 
 This section will just list some of the sources that inspired and shaped my conception of sound synthesis, as well as some descriptions of what inspired me. There is no specific order to the list. BTW the subtitles are links if you wanted to check these brands out for yourself. 
@@ -144,3 +150,6 @@ Moritz Klein
 [Synthfox](https://sfcs.neocities.org/)
 
 Ken Stone (CGS)
+
+Peter Blasser (Ciat Lonbarde)
+
