@@ -62,9 +62,9 @@ nav:
       - Overview: Eurorack/308-Voltage-Controlled-Filter-And-Wavefolder/index.md
       - Manual: Eurorack/308-Voltage-Controlled-Filter-And-Wavefolder/Manual.md
     
-    - 309 Advanced Clock Generator:
-      - Overview: Eurorack/309-Advanced-Clock-Generator/index.md
-      - Manual: Eurorack/309-Advanced-Clock-Generator/Manual.md
+    - 309 Advanced Clock Source:
+      - Overview: Eurorack/309-Advanced-Clock-Source/index.md
+      - Manual: Eurorack/309-Advanced-Clock-Source/Manual.md
 
   - Archive:
 
