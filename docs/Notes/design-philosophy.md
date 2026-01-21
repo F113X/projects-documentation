@@ -34,7 +34,7 @@ Recently I've grown increasingly attracted to pure waveforms such as sine and tr
 
 It is difficult to decide how much freedom you want to give the user. Everytime I wanted to make a standalone device, I always wanted to give the user every single control possible, and it is getting clearer and clearer to me that this will make the device boring to play with. 
 
-This was until I've discovered the [THC EIMTO](https://thehumancomparator.net/eimto.html), which only have 10 controls, but looks insanely fun to play with. This directly inspired me to draw up designs for the [Dronebox 1 (no offical name yet)](https://f113x.github.io/projects-documentation/Standalone/Dronebox-1/), which still has "too many" controls and is not produced yet. I still want to make it, just with some changed circuitry I have learnt a lot about the circuits since I designed that PCB.  
+This was until I've discovered the [THC EIMTO](https://thehumancomparator.net/eimto.html), which only have 10 controls, but looks insanely fun to play with. This directly inspired me to draw up designs for the [Dronebox 1 (no offical name yet)](https://f113x.github.io/projects-documentation/Standalone/Dronebox-1/), which still has "too many" controls and is not produced yet. I still want to make it, just with some changed circuitry I have learnt a lot about the circuits since I designed that PCB. 
 
 # Interface
 
