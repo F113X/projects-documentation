@@ -21,7 +21,9 @@
 ## Features
 
 - 
+- Swing capability with adjustment
+- Built in /2 and /4 clock divider with respective inverted outputs. 
 
 ## Quirks and Problems
 
--
+- 
