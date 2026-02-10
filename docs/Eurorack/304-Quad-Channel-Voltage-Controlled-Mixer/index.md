@@ -1,6 +1,6 @@
 # 304 Quad Channel Voltage Controlled Mixer
 
-![img](Images/img)
+![img](Images/304-0.1-1.png)
 
 [TOC]
 

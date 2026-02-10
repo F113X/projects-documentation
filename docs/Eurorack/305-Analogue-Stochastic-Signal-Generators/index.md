@@ -1,6 +1,6 @@
 # 305 Analogue Stochastic Signal Generators
 
-![img](Images/img)
+![img](Images/305-0.1-1.png)
 
 [TOC]
 
