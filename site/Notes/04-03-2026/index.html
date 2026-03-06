@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>04-03-2026 - An ode to RC filters - F113X</title>
+    <title>04-03-2026 - RC filters - F113X</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "04-03-2026 - An ode to RC filters";
+        var mkdocs_page_name = "04-03-2026 - RC filters";
         var mkdocs_page_input_path = "Notes/04-03-2026.md";
         var mkdocs_page_url = null;
       </script>
@@ -57,11 +57,11 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../21-01-2026/">21-01-2026</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../funny-falstad-circuit/">Funny Falstad Circuit</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../funny-falstad-circuit/">21-01-2026 2 - Funny Falstad Circuit</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../14-02-2026/">14-02-2026</a>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="#">04-03-2026 - An ode to RC filters</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">04-03-2026 - RC filters</a>
     <ul class="current">
     </ul>
                   </li>
@@ -292,7 +292,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">Notes</li>
-      <li class="breadcrumb-item active">04-03-2026 - An ode to RC filters</li>
+      <li class="breadcrumb-item active">04-03-2026 - RC filters</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -302,16 +302,22 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="rc-filters-are-amazing">RC Filters are amazing</h1>
+<p><em>This page will be updated to contain better annotated images</em></p>
 <p>I just want to express my appreciation to RC filters, because after trying to develop some new stuff, I just discovered that RC filters are at the core of so many circuits.</p>
 <p>Slew rate limiters? Basically RC lowpass filters where the cutoff frequency is very low.</p>
-<p>Minimoog style ADSR envelopes, gated AD/AR envelopes
+<p>Minimoog style ADSR envelopes, gated AD/AR envelopes?
 Basically bidirectional slew rate limiters (check above!)</p>
+<p><img alt="(PLACEHOLDER) AR envelope" src="ar-env.png" /></p>
 <p>I was learning how envelope looping works using a inverting schmitt trigger, and it looked suspiciously like the 40106 square/triangle oscillator. Lo and behold, they are basically the same thing!</p>
+<p><img alt="(PLACEHOLDER) looping envelope" src="env-looping.png" /></p>
 <p>Therefore, at the heart of the one of the most common starter DIY synth projects: a RC lowpass filter!</p>
+<p><img alt="(PLACEHOLDER) Schmitt trigger oscillator full" src="osc-full.png" />
+<img alt="(PLACEHOLDER) 40106 style schmitt trigger oscillator" src="osc-40106.png" /></p>
 <p>Now lets talk about RC highpass filters.</p>
 <p>AC coupling a RC highpass filter (technically cutting off the 0Hz signals or in other words, the DC offset)</p>
 <p><img alt="(PLACEHOLDER) AC coupling schematics" src="ac-coupling.png" /></p>
 <p>Gate to trigger converter? Basically just a RC highpass filter with the negative voltages cut off by a diode, then going through a comparator to square things off.</p>
+<p><img alt="(PLACEHOLDER) gate to trigger schematics" src="gate-to-trigger.png" /></p>
 <p>And not to mention all of the actual audio filters that are RC filters at there core (basically all of them except for the crazy people who use LC filters or other weird stuff XD)</p>
               
             </div>
