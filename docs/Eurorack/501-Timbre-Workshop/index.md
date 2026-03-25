@@ -30,7 +30,7 @@ Finally, this module is highly inspired by the Buchla Easel. It can be seen from
 
 Please note that exact panel functions are due to change, some of the labels are outdated and the image is only to be used as a visualisation of how the PCBs for each functional units will be layed out underneath the panel. 
 
-![unit layout](images/unit-layout.png)
+![unit layout](Images/unit-layout.png)
 
 
 # Oscillator Unit
