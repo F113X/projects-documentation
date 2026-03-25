@@ -32,7 +32,6 @@ Please note that exact panel functions are due to change, some of the labels are
 
 ![unit layout](Images/unit-layout.png)
 
-
 # Oscillator Unit
 
 *short description*
