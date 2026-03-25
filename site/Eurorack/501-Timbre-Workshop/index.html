@@ -345,6 +345,7 @@
 </ul>
 </li>
 <li><a href="#output-unit">Output Unit</a><ul>
+<li><a href="#touch-controller-protoboard">Touch Controller Protoboard</a></li>
 <li><a href="#v01_3">v0.1</a><ul>
 <li><a href="#features_3">Features</a></li>
 <li><a href="#quirks-and-problems_3">Quirks and Problems</a></li>
@@ -402,38 +403,68 @@
 <p>Please note that exact panel functions are due to change, some of the labels are outdated and the image is only to be used as a visualisation of how the PCBs for each functional units will be layed out underneath the panel. </p>
 <p><img alt="unit layout" src="Images/unit-layout.png" /></p>
 <h1 id="oscillator-unit">Oscillator Unit</h1>
-<p><em>short description</em></p>
+<p>status: undesigned, unbuilt</p>
+<p><em>Complex Oscillator Along with a Clock Generator</em></p>
 <h2 id="v01">v0.1</h2>
 <h3 id="features">Features</h3>
-<p>-</p>
+<ul>
+<li>Dual sine/square oscillators with linear and exponential cross fm</li>
+<li>"Tone" controls wavefold level on sine and pulse width on square</li>
+<li>Simple clock source with pulse output</li>
+<li>Utility attenuverter and passive multiple </li>
+</ul>
 <h3 id="quirks-and-problems">Quirks and Problems</h3>
 <p>-</p>
 <h1 id="function-generator-unit">Function Generator Unit</h1>
-<p><em>short description</em></p>
+<p>status: undesigned, unbuilt</p>
+<p><em>Classic Loopable AD/AR Generator and S&amp;H with noise and slew</em></p>
 <h2 id="v01_1">v0.1</h2>
 <h3 id="features_1">Features</h3>
-<p>-</p>
+<ul>
+<li>Loopable AD/AR generator based on the 555 timer chip</li>
+<li>S&amp;H based on the S&amp;H chip with built in noise generator and slew</li>
+<li>Utility 3 input CV/Audio mixer</li>
+</ul>
 <h3 id="quirks-and-problems_1">Quirks and Problems</h3>
 <p>-</p>
 <h1 id="filter-unit">Filter Unit</h1>
-<p><em>short description</em></p>
+<p>status: mainboard designed, topboard under progress, unbuilt</p>
+<p><strong><em>Non Resonant</em></strong><em>VCF based on Rene Schmitz Late MS20 Design</em></p>
 <h2 id="v01_2">v0.1</h2>
 <h3 id="features_2">Features</h3>
-<p>-</p>
+<ul>
+<li>MS20 lowpass VCF without resonance</li>
+<li>A utility slew rate limiter</li>
+</ul>
 <h3 id="quirks-and-problems_2">Quirks and Problems</h3>
 <p>-</p>
 <h1 id="output-unit">Output Unit</h1>
-<p><em>short description</em></p>
+<p>status: undesigned, unbuilt</p>
+<p><em>Multifunctional Unit Containing Effects, Utilities, and the Master Out</em></p>
+<h2 id="touch-controller-protoboard">Touch Controller Protoboard</h2>
+<p><em>This board is for prototyping the current touch controller design, it has identical features, just a layout optimised for testing and programming the device.</em></p>
+<p><img alt="touch protoboard top" src="Images/touchproto-top.png" />
+<img alt="touch protoboard bottom" src="Images/touchproto-bottom.png" /></p>
 <h2 id="v01_3">v0.1</h2>
 <h3 id="features_3">Features</h3>
-<p>-</p>
+<ul>
+<li>PT2399 Delay line with in-built tilt filter on delayed signal</li>
+<li>Overdrive with clipping indicator LED</li>
+<li>Vactrol based LPG</li>
+<li>Dual stereo line-outs with mono in</li>
+</ul>
 <h3 id="quirks-and-problems_3">Quirks and Problems</h3>
 <p>-</p>
 <h1 id="keyboard-unit">Keyboard Unit</h1>
-<p><em>short description</em></p>
+<p>status: Prototype board is designed and software currently under development</p>
+<p><em>Digitally Driven Touch Controller with Built-in Sequencers, Quantisation and more</em></p>
 <h2 id="v01_4">v0.1</h2>
 <h3 id="features_4">Features</h3>
-<p>-</p>
+<ul>
+<li>15 button capacitive touch pads, 2 CV outs and 1 gate out (gate out can technically output CV)</li>
+<li>Raspberry Pi Pico driven core, the limiting factor is the hardware (you can program it to do anything as long as it works on the hardware), so sequencers, arpeggiators, polyphony is all technically possible</li>
+<li>Actual software features tbd</li>
+</ul>
 <h3 id="quirks-and-problems_4">Quirks and Problems</h3>
 <p>-</p>
               
