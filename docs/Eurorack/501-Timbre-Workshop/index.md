@@ -34,15 +34,19 @@ Please note that exact panel functions are due to change, some of the labels are
 
 # Oscillator Unit
 
-*short description*
+status: undesigned, unbuilt
+
+*Complex Oscillator Along with a Clock Generator*
 
 ## v0.1
 
 
-
 ### Features
 
--
+- Dual sine/square oscillators with linear and exponential cross fm
+- "Tone" controls wavefold level on sine and pulse width on square
+- Simple clock source with pulse output
+- Utility attenuverter and passive multiple 
 
 ### Quirks and Problems
 
@@ -50,15 +54,18 @@ Please note that exact panel functions are due to change, some of the labels are
 
 # Function Generator Unit
 
-*short description*
+status: undesigned, unbuilt
+
+*Classic Loopable AD/AR Generator and S&H with noise and slew*
 
 ## v0.1
 
-
-
 ### Features
 
--
+- Loopable AD/AR generator based on the 555 timer chip
+- S&H based on the S&H chip with built in noise generator and slew
+- Utility 3 input CV/Audio mixer
+
 
 ### Quirks and Problems
 
@@ -66,13 +73,16 @@ Please note that exact panel functions are due to change, some of the labels are
 
 # Filter Unit
 
-*short description*
+status: mainboard designed, topboard under progress, unbuilt
+
+***Non Resonant****VCF based on Rene Schmitz Late MS20 Design*
 
 ## v0.1
 
 ### Features
 
--
+- MS20 lowpass VCF without resonance
+- A utility slew rate limiter
 
 ### Quirks and Problems
 
@@ -80,15 +90,25 @@ Please note that exact panel functions are due to change, some of the labels are
 
 # Output Unit
 
-*short description*
+status: undesigned, unbuilt
+
+*Multifunctional Unit Containing Effects, Utilities, and the Master Out*
+
+## Touch Controller Protoboard
+
+*This board is for prototyping the current touch controller design, it has identical features, just a layout optimised for testing and programming the device.*
+
+![touch protoboard top](Images/touchproto-top.png)
+![touch protoboard bottom](Images/touchproto-bottom.png)
 
 ## v0.1
 
-
-
 ### Features
 
--
+- PT2399 Delay line with in-built tilt filter on delayed signal
+- Overdrive with clipping indicator LED
+- Vactrol based LPG
+- Dual stereo line-outs with mono in
 
 ### Quirks and Problems
 
@@ -96,15 +116,17 @@ Please note that exact panel functions are due to change, some of the labels are
 
 # Keyboard Unit
 
-*short description*
+status: Prototype board is designed and software currently under development
+
+*Digitally Driven Touch Controller with Built-in Sequencers, Quantisation and more*
 
 ## v0.1
 
-
-
 ### Features
 
--
+- 15 button capacitive touch pads, 2 CV outs and 1 gate out (gate out can technically output CV)
+- Raspberry Pi Pico driven core, the limiting factor is the hardware (you can program it to do anything as long as it works on the hardware), so sequencers, arpeggiators, polyphony is all technically possible
+- Actual software features tbd
 
 ### Quirks and Problems
 
