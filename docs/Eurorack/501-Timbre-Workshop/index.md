@@ -94,13 +94,6 @@ status: undesigned, unbuilt
 
 *Multifunctional Unit Containing Effects, Utilities, and the Master Out*
 
-## Touch Controller Protoboard
-
-*This board is for prototyping the current touch controller design, it has identical features, just a layout optimised for testing and programming the device.*
-
-![touch protoboard top](Images/touchproto-top.png)
-![touch protoboard bottom](Images/touchproto-bottom.png)
-
 ## v0.1
 
 ### Features
@@ -119,6 +112,13 @@ status: undesigned, unbuilt
 status: Prototype board is designed and software currently under development
 
 *Digitally Driven Touch Controller with Built-in Sequencers, Quantisation and more*
+
+## Touch Controller Protoboard
+
+*This board is for prototyping the current touch controller design, it has identical features, just a layout optimised for testing and programming the device.*
+
+![touch protoboard top](Images/touchproto-top.png)
+![touch protoboard bottom](Images/touchproto-bottom.png)
 
 ## v0.1
 
