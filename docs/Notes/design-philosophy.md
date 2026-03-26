@@ -28,7 +28,7 @@ In conclusion, I'd probably say I like the concept of "controlled randomness", i
 
 # Pure Tone vs Noise
 
-Recently I've grown increasingly attracted to pure waveforms such as sine and triangle. 
+Recently I've grown increasingly attracted to pure waveforms such as sine and triangle. I want elaborate on this, but I really don't know how. 
 
 # Limitations
 
@@ -65,11 +65,15 @@ I generally avoid IC's and components that are rare, expensive, or obsolete. I *
 1. I have a budget too. This is why I generally avoid slightly expensive stuff, especially when I'm not 100% sure if it will work or not. 
 2. I have a trusted components supplier and I hope to get my components from exclusively, because I don't trust the small sketchy distributers and they generally have higher shipping fees. However, my supplier doesn't stock most rare chips such as the 33XX chips or similar. This also explains why I use LM13700s, because my supplier stocks them (luckily). I recently realised how difficult it is for some people to obtain LM13700s, so I will probably reduce its use for VCAs, and only use them when absolutely necessary. 
 
-For the PCBs, I try to stay as *BOM free* as possible, because of my laziness to compile a BOM. This is why I put component values next to every single component where this is necessary, and don't have component designators. I also don't make official schematics, but I have a collection of all the schematics and the mods I've made to them. So sorry to whoever tries to replicate me stuff :P
+For the PCBs, I try to stay as *BOM free* as possible, because of my laziness to compile a BOM. This is why I put component values next to every single component where this is necessary, and don't have component designators. I also don't make official schematics, but I have a collection of all the schematics and the mods I've made to them. On the other hand, most of my circuits are identical or minimally changed from existing schematics, which I usually mention in the description on github. 
 
 This generally should be fine as long as I'm still using thru-hole components, but as soon as I make SMD stuff it will be a royal PITA for whoever tries to build it other than me. Or a royal PITA for me because I use the same footprints for everything and it would be really annoying for me to make the BOM and pick and place files. 
 
 This is quite unprofessional of my part, but I'm too lazy to make any changes regarding this unless someone requests help. 
+
+Note: I feel that there are some nuances in what I have described after I wrote this, so I want to specify here:
+1. I generally design and build things for myself. I keep things BOM free because when I solder I want to only focus on soldering. In terms of labeling, I do label most parts, but I do have a system of parts I do or don't label. It is learnable, but it may be a bit confusing for beginners. A prime example is that I don't label 1N4148 diodes. The footprint I use already indicate a diode goes here, and I use 1N4148 by default unless otherwise stated. 
+2. When I say rare components, it is determined from how easy I could buy it. I have already given the LM13700 example above, but I also realise things like thermistors, LDRs, and other ICs that I plan to use can be unobtainium in most parts of the world. It just happens to be that my supplier stocks them, so I am pretty lucky in that sense. 
 
 # Sources of inspiration
 
@@ -89,7 +93,7 @@ This was also one of the first brand I've known of (before knowing Eurorack even
 
 ## Buchla
 
-There is not much to be said about this brand, mostly just aesthetics, cohesiveness, and creative product design that gave me many new ideas. 
+There is not much to be said about this brand, mostly just aesthetics, cohesiveness, and creative product design that gave me many new ideas.
 
 ## [Verbos Electronics](https://www.verboselectronics.com/)
 
@@ -103,7 +107,9 @@ A significant portion of my circuits originally come from the EDU series, which 
 
 This brand mostly inspires me from the clean, elegant product design. Each product feels like an art piece, and the website is like an art gallery. There is also so little information on this brand, I've only found a couple of videos that Hainbach made on two of their products, and it is quite hard to figure out the true potential of the products just by looking at panels and different documents in the website. 
 
-## Music Thing Modular
+## [Music Thing Modular]((https://musicthing.co.uk))
+
+This is a strange one, to be honest. On one hand, there is this ingenious designs like the Turing Machine, Mikrophonie, and more recently the Workshop System, but on the other hand I always feel like Music Thing has way more modules than it actually does, perhaps because of its overwhelming popularity. This brand is so popular amongst DIYers and synth enthusiasts alike, but they are so mysterious for such a brand. I don't know what to say about this brand, but apparently it has been a big part of me learning synths.  
 
 ## [Mengqi Music](https://www.mengqimusic.com/) (btw i like his original website better)
 
@@ -129,19 +135,19 @@ It is important to mention that just because some brands weren't mentioned above
 
 Here are some others that deserved to be mentioned, as I've either learnt a lot from them or made stuff they designed:
 
-Music from Outer Space
+[Music from Outer Space](https://musicfromouterspace.com/)
 
-Yusynth
+[Yusynth](https://yusynth.net/index_en.php)
 
-Benjiao Modular
+[Benjiao Modular](https://benjiaomodular.com/)
 
 modular.khiat (Their site is down)
 
-Instruo
+[Instruo](https://www.instruomodular.com/)
 
-Look Mum No Computer
+[Look Mum No Computer](https://www.lookmumnocomputer.com/)
 
-René Schmitz
+[René Schmitz](https://www.schmitzbits.de/index.html)
 
 Moritz Klein
 
