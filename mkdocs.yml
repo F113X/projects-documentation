@@ -72,6 +72,10 @@ nav:
       - Overview: Eurorack/309-Advanced-Clock-Source/index.md
       - Manual: Eurorack/309-Advanced-Clock-Source/Manual.md
     
+    - 310c Diode Voltage Controlled Filter:
+      - Overview: Eurorack/310c-Diode-Voltage-Controlled-Filter/index.md
+      - Manual: Eurorack/310c-Diode-Voltage-Controlled-Filter/Manual.md
+    
     - 501 Timbre Workshop:
       - Overview: Eurorack/501-Timbre-Workshop/index.md
       - Manual: Eurorack/501-Timbre-Workshop/Manual.md
