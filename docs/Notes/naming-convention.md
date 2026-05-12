@@ -28,6 +28,7 @@ As seen above, both parts are unique for each module, but the function is writte
 # Suffixes
 
 In the identifier, there are 2 sub-sections. The beginning half is the number, which will be explained later; and the ending half is the suffix (currently only 1), which is universal regardless of the first half and will be explained in this section. 
+
 |Suffix|Definition|
 |:----:|:--------:|
 |-c|compact|
