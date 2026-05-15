@@ -1,6 +1,6 @@
 # 310c Diode Voltage Controlled Filter
 
-![img](Images/img)
+![img](Images/310c-0.1-1.png)
 
 [TOC]
 
@@ -15,7 +15,7 @@
 |Parameter|Value|
 |---------|-----|
 |Width|4hp|
-|Depth|-|
+|Depth|~35mm max. *skiff friendly*|
 |+12 Current|-|
 |-12 Current|-|
 |+5 Current|0mA|
@@ -25,7 +25,8 @@
 - Compact 4hp design that contains all the essentials for a VCF
 - Level and CV attenuators
 - Maximum resonance is adjustable via a trimmer on the bottom board
+- Somehow makes a great sine VCO with surprisingly good (2-3 octaves) of V/OCT tracking, with the correct frequency and attenuator settings
 
 ## Quirks and Problems
 
--
+- Non yet to be found. 
