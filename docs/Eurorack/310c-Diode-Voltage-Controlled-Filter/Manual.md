@@ -1,6 +1,6 @@
 # 310c Diode Voltage Controlled Filter User Manual
 
-*This is the web version of the manual. Click [here](Files/310c-Rev.1.pdf) for the PDF version.*
+*This is the web version of the manual. Click ![here](Files/310c-Rev.1.pdf) for the PDF version.*
 
 [TOC]
 
