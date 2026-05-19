@@ -1,11 +1,11 @@
 # VCF-1
 
+**A new version using (practically) the same circuit has been made [here](https://f113x.github.io/projects-documentation/Eurorack/310c-Diode-Voltage-Controlled-Filter/), consider checking it out!**
+
 ![vcf1-0.1-1](Images/vcf1-0.1-1.png)
 
 [TOC]
 
-
-**A new version using (practically) the same circuit has been made [here](https://f113x.github.io/projects-documentation/Eurorack/310c-Diode-Voltage-Controlled-Filter/), consider checking it out!**
 *Smooth Diode Ladder Based Low Pass Filter*
 
 # v0.1
