@@ -189,6 +189,34 @@
                 <li class="toctree-l2"><a class="reference internal" href="../">Overview</a>
                 </li>
                 <li class="toctree-l2 current"><a class="reference internal current" href="#">Manual</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#1-introduction">1 Introduction</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-power">2 Power</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-front-panel-overview">3 Front Panel Overview</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-additional-information">4 Additional Information</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#41-resonance-intensity-adjustment">4.1 Resonance Intensity Adjustment</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#42-frequency-response">4.2 Frequency Response</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#5-patch-ideas">5 Patch Ideas</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#6-technical-specifications">6 Technical Specifications</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#61-dimensions-power">6.1 Dimensions &amp; Power</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#62-inputs-outputs">6.2 Inputs &amp; Outputs</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#63-additional-specifications-optional">6.3 Additional Specifications (Optional)</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
                 </li>
     </ul>
                   </li>
@@ -322,7 +350,98 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                
+                <h1 id="310c-diode-voltage-controlled-filter-user-manual">310c Diode Voltage Controlled Filter User Manual</h1>
+<p><em>This is the web version of the manual. Click <a href="../Files/310c-Rev.1.pdf">here</a> for the PDF version.</em></p>
+<div class="toc">
+<ul>
+<li><a href="#310c-diode-voltage-controlled-filter-user-manual">310c Diode Voltage Controlled Filter User Manual</a><ul>
+<li><a href="#1-introduction">1 Introduction</a></li>
+<li><a href="#2-power">2 Power</a></li>
+<li><a href="#3-front-panel-overview">3 Front Panel Overview</a></li>
+<li><a href="#4-additional-information">4 Additional Information</a><ul>
+<li><a href="#41-resonance-intensity-adjustment">4.1 Resonance Intensity Adjustment</a></li>
+<li><a href="#42-frequency-response">4.2 Frequency Response</a></li>
+</ul>
+</li>
+<li><a href="#5-patch-ideas">5 Patch Ideas</a></li>
+<li><a href="#6-technical-specifications">6 Technical Specifications</a><ul>
+<li><a href="#61-dimensions-power">6.1 Dimensions &amp; Power</a></li>
+<li><a href="#62-inputs-outputs">6.2 Inputs &amp; Outputs</a></li>
+<li><a href="#63-additional-specifications-optional">6.3 Additional Specifications (Optional)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="1-introduction">1 Introduction</h2>
+<p>The <em>310c Diode Voltage Controlled Filter</em> is a basic VCF based on the diode ladder topology in a small 4hp format. It is a two-pole lowpass filter, meaning it has a -12 dB/oct frequency response. </p>
+<h2 id="2-power">2 Power</h2>
+<p>This module requires 4hp of free space in a rack. When installing, always turn off the power supply before plugging anything in. When plugging in the 10-16 pin ribbon power cable, ensure that the red stripe lines up with the <strong>RED LINE</strong> mark (see fig. 2.1) on the module and the marking that indicates <strong>-12v</strong> on the bus board.</p>
+<p>This module <strong>is</strong> reverse polarity protected. This means that the module will not get heavily damaged if the power cable is plugged in backwards. However, a reversed power cable may still cause damage to the components in the module, as well as other modules connected to the same power supply. </p>
+<p><img alt="fig. 2.1" src="Images/power-header.png" />
+<em>fig. 2.1 Power Header</em></p>
+<h2 id="3-front-panel-overview">3 Front Panel Overview</h2>
+<p><img alt="fig. 3.1" src="../Images/310c-0.1-1.png" /></p>
+<p><em>fig. 3.1 Panel Overview</em></p>
+<p>The 310c has a common and straightforward interface similar to many VCF designs. The cutoff <em>FREQUENCY</em> knob allows for sweeping across the full frequency range (20-20,000 Hz) , and the <em>RESONANCE</em> knob allows for control of resonance from completely zero up to self-oscillation (at about 2-3 o’clock) and overdriving self-oscillation. The resonance intensity can be adjusted, refer to Section 4.1.</p>
+<p>The audio <em>IN</em> and <em>CV</em> inputs both accept standard Eurorack signal levels of up to 24Vpp, and can be attenuated using their respective onboard attenuators, indicated by the panel. The <em>IN</em> attenuator can be used to overdrive the input signal when fully open, which will decrease the effect of resonance and result in a soft-clipped output signal. <em>CV</em> is capable of tracking 1 V/oct for around 2-3 octaves, depending on the attenuator position. To achieve this, the attenuator should be set at about 1-3 o’clock, the exact position also depends on the <em>FREQUENCY</em> knob position. </p>
+<p>Finally, the jack below the <em>CV</em> input is <em>OUT</em>, which is the output of the filter. </p>
+<h2 id="4-additional-information">4 Additional Information</h2>
+<h3 id="41-resonance-intensity-adjustment">4.1 Resonance Intensity Adjustment</h3>
+<h3 id="42-frequency-response">4.2 Frequency Response</h3>
+<p>The intensity of the resonance can be adjusted via a trimmer potentiometer at the bottom PCB of the module. To adjust it, First turn the <strong>FREQUENCY</strong> knob to the central (12 o’clock) position and the <strong>RESONANCE</strong> knob to the maximum position, and plug a cable to <strong>OUT</strong> to monitor the output of the module. Next, remove the module from the rack and locate the resonance trimmer on the bottom PCB (see fig. 4.1). Using a small flathead screwdriver, adjust the frequency trimmer to your liking. The output of the resonance will be the resonance of the module with maximum resonance. </p>
+<p><strong>Warning:</strong>
+a.  High resonance intensity can result in very high levels. Be careful to not damage hearing or speakers. 
+b.  Touching the PCB while adjusting the trimmer <strong>will</strong> cause instabilities in the module. While it won’t cause damage in the module, but will make adjustment more difficult. It is recommended to hold the panel or place the module upside-down on the rack (see fig 4.2) while adjusting. 
+c.  <strong>Do not</strong> allow contact from any metal with the PCB, as it may cause damage to the circuit. </p>
+<h2 id="5-patch-ideas">5 Patch Ideas</h2>
+<h2 id="6-technical-specifications">6 Technical Specifications</h2>
+<h3 id="61-dimensions-power">6.1 Dimensions &amp; Power</h3>
+<table>
+<thead>
+<tr>
+<th>Width</th>
+<th>Depth</th>
+<th>+12v Current</th>
+<th>-12v Current</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>8hp</em></td>
+<td><em>~35mm max.</em></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="62-inputs-outputs">6.2 Inputs &amp; Outputs</h3>
+<table>
+<thead>
+<tr>
+<th>Inputs</th>
+<th>Additional Info</th>
+<th>Outputs</th>
+<th>Additional Info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN</strong></td>
+<td><em>±12V max.</em></td>
+<td><strong>OUT</strong></td>
+<td><em>~20Vpp max.</em></td>
+</tr>
+<tr>
+<td><strong>CV</strong></td>
+<td><em>±12V max.</em></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="63-additional-specifications-optional">6.3 Additional Specifications (Optional)</h3>
               
             </div>
           </div><footer>
