@@ -1,6 +1,6 @@
 # 501 Timbre Workshop
 
-![img](Images/img)
+![img](Images/3d-panel-1.png)
 
 [TOC]
 

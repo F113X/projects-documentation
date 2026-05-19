@@ -4,6 +4,8 @@
 
 [TOC]
 
+
+**A new version using (practically) the same circuit has been made [here](https://f113x.github.io/projects-documentation/Eurorack/310c-Diode-Voltage-Controlled-Filter/), consider checking it out!**
 *Smooth Diode Ladder Based Low Pass Filter*
 
 # v0.1
