@@ -17,7 +17,7 @@
 |---------|-----|
 |Width|14HP|
 |Height|1U Intellijel|
-|Depth|~15mm *skiff friendly*|
+|Depth|~25mm max. *skiff friendly*|
 |+12 Current|-|
 |-12 Current|-|
 |+5 Current|0mA|

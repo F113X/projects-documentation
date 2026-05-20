@@ -30,5 +30,3 @@ module to the rack and it will be in working state.
 |Inputs|Additional Info|Outputs|Additional Info|
 |------|---------------|-------|---------------|
 |**IN 1, 2**|*Any modular levels*|**OUT 1.1-4, 2.1-4**|*Any modular levels*|
-
-### 6.3 Additional Specifications (Optional)
