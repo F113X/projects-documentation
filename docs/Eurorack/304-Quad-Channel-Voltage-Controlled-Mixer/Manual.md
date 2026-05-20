@@ -1,12 +1,11 @@
-# XXX User Manual
+# 304 Quad Channel Voltage Controlled Mixer User Manual
 
-*This is the web version of the manual. Click [here](Files/manual.pdf) for the PDF version.*
+*This is the web version of the manual. Click [here](Files/304-Rev.1.pdf) for the PDF version.*
 
 [TOC]
 
 ## 1 Introduction
 
-### 1.1 Features
 
 ## 2 Power
 
