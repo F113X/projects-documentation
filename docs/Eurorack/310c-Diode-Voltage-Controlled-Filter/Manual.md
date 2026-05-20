@@ -35,8 +35,6 @@ Finally, the jack below the *CV* input is *OUT*, which is the output of the filt
 
 ### 4.1 Resonance Intensity Adjustment
 
-### 4.2 Frequency Response
-
 The intensity of the resonance can be adjusted via a trimmer potentiometer at the bottom PCB of the module. To adjust it, First turn the **FREQUENCY** knob to the central (12 o’clock) position and the **RESONANCE** knob to the maximum position, and plug a cable to **OUT** to monitor the output of the module. Next, remove the module from the rack and locate the resonance trimmer on the bottom PCB (see fig. 4.1). Using a small flathead screwdriver, adjust the frequency trimmer to your liking. The output of the resonance will be the resonance of the module with maximum resonance. 
 
 **Warning:**
@@ -44,10 +42,22 @@ a.	High resonance intensity can result in very high levels. Be careful to not da
 b.	Touching the PCB while adjusting the trimmer **will** cause instabilities in the module. While it won’t cause damage in the module, but will make adjustment more difficult. It is recommended to hold the panel or place the module upside-down on the rack (see fig 4.2) while adjusting. 
 c.	**Do not** allow contact from any metal with the PCB, as it may cause damage to the circuit. 
 
+### 4.2 Frequency Response
 
 
 
 ## 5 Patch Ideas
+
+As this module is a very basic module without complicated functionality, creative uses for it are limited other than the standard VCF. 
+
+### 5.1 Filter Pinging
+
+Filter pinging (percussions, kicks, etc)
+
+### 5.2 Sine VCO
+
+Using filter as a sine VCO
+
 
 ## 6 Technical Specifications
 
