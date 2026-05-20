@@ -205,6 +205,12 @@
         </ul>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#5-patch-ideas">5 Patch Ideas</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#51-filter-pinging">5.1 Filter Pinging</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#52-sine-vco">5.2 Sine VCO</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#6-technical-specifications">6 Technical Specifications</a>
         <ul>
@@ -363,7 +369,11 @@
 <li><a href="#42-frequency-response">4.2 Frequency Response</a></li>
 </ul>
 </li>
-<li><a href="#5-patch-ideas">5 Patch Ideas</a></li>
+<li><a href="#5-patch-ideas">5 Patch Ideas</a><ul>
+<li><a href="#51-filter-pinging">5.1 Filter Pinging</a></li>
+<li><a href="#52-sine-vco">5.2 Sine VCO</a></li>
+</ul>
+</li>
 <li><a href="#6-technical-specifications">6 Technical Specifications</a><ul>
 <li><a href="#61-dimensions-power">6.1 Dimensions &amp; Power</a></li>
 <li><a href="#62-inputs-outputs">6.2 Inputs &amp; Outputs</a></li>
@@ -389,13 +399,21 @@
 <p>Finally, the jack below the <em>CV</em> input is <em>OUT</em>, which is the output of the filter. </p>
 <h2 id="4-additional-information">4 Additional Information</h2>
 <h3 id="41-resonance-intensity-adjustment">4.1 Resonance Intensity Adjustment</h3>
-<h3 id="42-frequency-response">4.2 Frequency Response</h3>
 <p>The intensity of the resonance can be adjusted via a trimmer potentiometer at the bottom PCB of the module. To adjust it, First turn the <strong>FREQUENCY</strong> knob to the central (12 o’clock) position and the <strong>RESONANCE</strong> knob to the maximum position, and plug a cable to <strong>OUT</strong> to monitor the output of the module. Next, remove the module from the rack and locate the resonance trimmer on the bottom PCB (see fig. 4.1). Using a small flathead screwdriver, adjust the frequency trimmer to your liking. The output of the resonance will be the resonance of the module with maximum resonance. </p>
 <p><strong>Warning:</strong>
 a.  High resonance intensity can result in very high levels. Be careful to not damage hearing or speakers. 
 b.  Touching the PCB while adjusting the trimmer <strong>will</strong> cause instabilities in the module. While it won’t cause damage in the module, but will make adjustment more difficult. It is recommended to hold the panel or place the module upside-down on the rack (see fig 4.2) while adjusting. 
 c.  <strong>Do not</strong> allow contact from any metal with the PCB, as it may cause damage to the circuit. </p>
+<h3 id="42-frequency-response">4.2 Frequency Response</h3>
 <h2 id="5-patch-ideas">5 Patch Ideas</h2>
+<p>As this module is a very basic module without complicated functionality, creative uses for it are rather limited other than the standard VCF. </p>
+<h3 id="51-filter-pinging">5.1 Filter Pinging</h3>
+<p>When triggers are patched into the filter while the <strong>RESONANCE</strong> is right before self-oscillation, the filter can be pinged, outputting a short decaying sine pulse. The frequency of the ping is dependent on the cutoff <strong>FREQUENCY</strong>, and the decay time can be slightly adjusted using the <strong>RESONANCE</strong> control. </p>
+<p><strong>CV</strong> can be used to obtain more interesting results, try patching a simple decaying envelope to it to obtain a pitch sweep, allowing the synthesis of kick drums or other percussive sounds. When an audio rate signal is patched into <strong>CV</strong>, more complex sounds can be obtained, reminiscent of <em>Buchla Bongos</em> and the likes. </p>
+<p>Experiment with the combinations of <strong>IN</strong> and <strong>CV</strong> inputs, for example a decaying envelope into IN and a trigger into <strong>CV</strong>. Also, experiment with combining different signals in an external mixer to obtain complex modulation. </p>
+<h3 id="52-sine-vco">5.2 Sine VCO</h3>
+<p>When <strong>RESONANCE</strong> is pushed into self-oscillation, it outputs a sine wave with relatively low distortion . Therefore, the <strong>CV</strong> input can be used as a frequency modulation input of sorts, and when the <strong>CV</strong> attenuator is adjusted correctly, the <strong>CV</strong> input can be used for <em>1 V/oct</em> tracking for a usable range (see Section 3). Thus, the filter can be used as a sine VCO. </p>
+<p>Experiment with wavefolding the sine wave, using it to modulate other controls, overdriving the signal, as they will all result in interesting results. Additionally, driving the initial signal by cranking <strong>RESONANCE</strong> will produce an output of higher harmonic content, try filtering the driven output for other results. Note that the signal is hard-clipped, and may produce noisy and/or loud results. </p>
 <h2 id="6-technical-specifications">6 Technical Specifications</h2>
 <h3 id="61-dimensions-power">6.1 Dimensions &amp; Power</h3>
 <table>
