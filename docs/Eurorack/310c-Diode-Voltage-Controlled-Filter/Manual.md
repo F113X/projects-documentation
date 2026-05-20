@@ -48,15 +48,23 @@ c.	**Do not** allow contact from any metal with the PCB, as it may cause damage 
 
 ## 5 Patch Ideas
 
-As this module is a very basic module without complicated functionality, creative uses for it are limited other than the standard VCF. 
+As this module is a very basic module without complicated functionality, creative uses for it are rather limited other than the standard VCF. 
 
 ### 5.1 Filter Pinging
 
-Filter pinging (percussions, kicks, etc)
+When triggers are patched into the filter while the **RESONANCE** is right before self-oscillation, the filter can be pinged, outputting a short decaying sine pulse. The frequency of the ping is dependent on the cutoff **FREQUENCY**, and the decay time can be slightly adjusted using the **RESONANCE** control. 
+
+**CV** can be used to obtain more interesting results, try patching a simple decaying envelope to it to obtain a pitch sweep, allowing the synthesis of kick drums or other percussive sounds. When an audio rate signal is patched into **CV**, more complex sounds can be obtained, reminiscent of *Buchla Bongos* and the likes. 
+
+Experiment with the combinations of **IN** and **CV** inputs, for example a decaying envelope into IN and a trigger into **CV**. Also, experiment with combining different signals in an external mixer to obtain complex modulation. 
+
 
 ### 5.2 Sine VCO
 
-Using filter as a sine VCO
+When **RESONANCE** is pushed into self-oscillation, it outputs a sine wave with relatively low distortion . Therefore, the **CV** input can be used as a frequency modulation input of sorts, and when the **CV** attenuator is adjusted correctly, the **CV** input can be used for *1 V/oct* tracking for a usable range (see Section 3). Thus, the filter can be used as a sine VCO. 
+
+Experiment with wavefolding the sine wave, using it to modulate other controls, overdriving the signal, as they will all result in interesting results. Additionally, driving the initial signal by cranking **RESONANCE** will produce an output of higher harmonic content, try filtering the driven output for other results. Note that the signal is hard-clipped, and may produce noisy and/or loud results. 
+
 
 
 ## 6 Technical Specifications
