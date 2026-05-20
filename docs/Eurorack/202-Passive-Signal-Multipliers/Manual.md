@@ -1,38 +1,34 @@
-# XXX User Manual
+# 202 Passive Signal Multipliers User Manual
 
-*This is the web version of the manual. Click [here](Files/manual.pdf) for the PDF version.*
+*This is the web version of the manual. Click [here](Files/202-Rev.1.pdf) for the PDF version.*
 
 [TOC]
 
 ## 1 Introduction
 
-### 1.1 Features
+The *202 Passive Signal Multipliers* are 2 simple utility passive multiples in *Intellijel* 1U format.
+Each multiple produces four copies of the input signal, and the input of the second multiple is
+normalled to the first input, so the module can be used as a single multiple that produces eight
+copies of the input signal.
 
 ## 2 Power
 
-This module requires XXXhp of free space in a rack. When installing, always turn off the power supply before plugging anything in. When plugging in the 10-16 pin ribbon power cable, ensure that the red stripe lines up with the **RED LINE** mark (refer to fig. 2.1) on the module and the marking that indicates **-12v** on the bus board. 
-
-This module **is/is not** reverse polarity protected. This means that the module will not/will get heavily damaged if the power cable is plugged in backwards. However, a reversed power cable may still cause damage to the components in the module, as well as other modules connected to the same power supply. 
-
-![fig. 2.1](Images/power-header.png)
-
+This module requires 14hp of free space in an *Intellijel* 1U row of the rack. This module is
+completely passive, meaning that it does not require power to work. Therefore, just mount the
+module to the rack and it will be in working state.
 
 ## 3 Front Panel Overview
 
-## 4 Additional Information (Optional)
+## 4 Technical Specifications
 
-## 5 Patch Ideas
+### 4.1 Dimensions & Power
+|Width|Height|Depth|+12v Current|-12v Current|
+|-----|------|-----|------------|------------|
+|*14hp*|*1U Intellijel*|*~15mm*|*0 mA*|*0 mA*|
 
-## 6 Technical Specifications
-
-### 6.1 Dimensions & Power
-|Width|Depth|+12v Current|-12v Current|
-|-----|-----|------------|------------|
-|||||
-
-### 6.2 Inputs & Outputs
+### 4.2 Inputs & Outputs
 |Inputs|Additional Info|Outputs|Additional Info|
 |------|---------------|-------|---------------|
-|||||
+|**IN 1, 2**|*Any modular levels*|**OUT 1.1-4, 2.1-4**|*Any modular levels*|
 
 ### 6.3 Additional Specifications (Optional)

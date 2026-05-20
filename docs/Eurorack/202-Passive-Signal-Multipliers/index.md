@@ -26,4 +26,4 @@
 ## Quirks and Problems
 
 - not tested yet, but i dont think there will be any issues lol
-- well it was tested and i wasn't wrong
+- well it was tested and i wasn't wrong (i would also be pretty concerned if this turned out to have issues)

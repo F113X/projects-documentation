@@ -6,7 +6,6 @@
 
 ## 1 Introduction
 
-### 1.1 Features
 
 ## 2 Power
 
