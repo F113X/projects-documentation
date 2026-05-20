@@ -24,11 +24,11 @@ This module **is** reverse polarity protected. This means that the module will n
 
 *fig. 3.1 Panel Overview*
 
-The 310c has a common and straightforward interface similar to many VCF designs. The cutoff *FREQUENCY* knob allows for sweeping across the full frequency range (20-20,000 Hz) , and the *RESONANCE* knob allows for control of resonance from completely zero up to self-oscillation (at about 2-3 o’clock) and overdriving self-oscillation. The resonance intensity can be adjusted, refer to Section 4.1.
+The 310c has a common and straightforward interface similar to many VCF designs. The cutoff **FREQUENCY** knob allows for sweeping across the full frequency range (*20-20,000 Hz*) , and the **RESONANCE** knob allows for control of resonance from completely zero up to self-oscillation (at about 2-3 o’clock) and overdriving self-oscillation. The resonance intensity can be adjusted, refer to Section 4.1.
 
-The audio *IN* and *CV* inputs both accept standard Eurorack signal levels of up to 24Vpp, and can be attenuated using their respective onboard attenuators, indicated by the panel. The *IN* attenuator can be used to overdrive the input signal when fully open, which will decrease the effect of resonance and result in a soft-clipped output signal. *CV* is capable of tracking 1 V/oct for around 2-3 octaves, depending on the attenuator position. To achieve this, the attenuator should be set at about 1-3 o’clock, the exact position also depends on the *FREQUENCY* knob position. 
+The audio **IN** and **CV** inputs both accept standard Eurorack signal levels of up to *24Vpp*, and can be attenuated using their respective onboard attenuators, indicated by the panel. The **IN** attenuator can be used to overdrive the input signal when fully open, which will decrease the effect of resonance and result in a soft-clipped output signal. **CV** is capable of tracking *1 V/oct* for around 2-3 octaves, depending on the attenuator position. To achieve this, the attenuator should be set at about 1-3 o’clock, the exact position also depends on the **FREQUENCY** knob position. 
 
-Finally, the jack below the *CV* input is *OUT*, which is the output of the filter. 
+Finally, the jack below the **CV** input is **OUT**, which is the output of the filter. 
 
 
 ## 4 Additional Information
