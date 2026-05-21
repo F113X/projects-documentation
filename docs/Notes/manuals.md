@@ -8,7 +8,7 @@
 
 [304 Quad Channel Voltage Controlled Mixer](https://f113x.github.io/projects-documentation/Eurorack/304-Quad-Channel-Voltage-Controlled-Mixer/Files/304-Rev.1.pdf)
 
-[308 Voltage Controlled Filter and Wavefolder]()
+[308 Voltage Controlled Filter and Wavefolder](https://f113x.github.io/projects-documentation/Eurorack/308-Voltage-Controlled-Filter-And-Wavefolder/Files/308-Rev.1.pdf)
 
 
 
