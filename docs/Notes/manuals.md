@@ -8,9 +8,8 @@
 
 [304 Quad Channel Voltage Controlled Mixer](https://f113x.github.io/projects-documentation/Eurorack/304-Quad-Channel-Voltage-Controlled-Mixer/Files/304-Rev.1.pdf)
 
-[305 Analogue Stochastic Signal Generators]()
+[305 Analogue Stochastic Signal Generators](https://f113x.github.io/projects-documentation/Eurorack/305-Analogue-Stochastic-Signal-Generators/Files/305-Rev.1.pdf)
 
 [308 Voltage Controlled Filter and Wavefolder](https://f113x.github.io/projects-documentation/Eurorack/308-Voltage-Controlled-Filter-And-Wavefolder/Files/308-Rev.1.pdf)
-]
 
 [310c Diode Voltage Controlled Filter](https://f113x.github.io/projects-documentation/Eurorack/310c-Diode-Voltage-Controlled-Filter/Files/310c-Rev.1.pdf)
