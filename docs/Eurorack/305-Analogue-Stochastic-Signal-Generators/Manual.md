@@ -1,6 +1,6 @@
 # XXX User Manual
 
-*This is the web version of the manual. Click [here](Files/manual.pdf) for the PDF version.*
+*This is the web version of the manual. Click [here](Files/305-manual.pdf) for the PDF version.*
 
 [TOC]
 
