@@ -16,23 +16,7 @@ nav:
     - 23-03-2026 - Interesting Idea: Notes/23-03-2026.md
     - 10-04-2026: Notes/10-04-2026.md
 
-  - Eurorack:
-
-    - 2399 Digital Delay Line: 
-      - Overview: Eurorack/2399-Digital-Delay-Line/index.md
-      - Manual: Eurorack/2399-Digital-Delay-Line/Manual.md
-    
-    - 4022 Eight Stage Sequencer:
-      - Overview: Eurorack/4022-Eight-Stage-Sequencer/index.md
-      - Manual: Eurorack/4022-Eight-Stage-Sequencer/Manual.md
-    
-    - 606 Hihat Generator:
-      - Overview: Eurorack/606-Hihat-Generator/index.md
-      - Manual: Eurorack/606-Hihat-Generator/Manual.md
-    
-    - 909 Kick Generator:
-      - Overview: Eurorack/909-Kick-Generator/index.md
-      - Manual: Eurorack/909-Kick-Generator/Manual.md
+  - 200 Series:
 
     - 201 Dual Attenuverters:
       - Overview: Eurorack/201-Dual-Attenuverters/index.md
@@ -41,7 +25,10 @@ nav:
     - 202 Passive Signal Multipliers:
       - Overview: Eurorack/202-Passive-Signal-Multipliers/index.md
       - Manual: Eurorack/202-Passive-Signal-Multipliers/Manual.md
-    
+  
+
+  - 300 Series:
+
     - 301 Variable Waveshape LFO:
       - Overview: Eurorack/301-Variable-Waveshape-LFO/index.md
       - Manual: Eurorack/301-Variable-Waveshape-LFO/Manual.md
@@ -81,10 +68,59 @@ nav:
     - 311 Digital Audio Player:
       - Overview: Eurorack/311-Digital-Audio-Player/index.md
       - Manual: Eurorack/311-Digital-Audio-Player/Manual.md
-    
+
+
+  - 500 Series: 
+
     - 501 Timbre Workshop:
       - Overview: Eurorack/501-Timbre-Workshop/index.md
       - Manual: Eurorack/501-Timbre-Workshop/Manual.md
+  
+
+  - Misc. Modules: 
+
+    - 2399 Digital Delay Line: 
+      - Overview: Eurorack/2399-Digital-Delay-Line/index.md
+      - Manual: Eurorack/2399-Digital-Delay-Line/Manual.md
+    
+    - 4022 Eight Stage Sequencer:
+      - Overview: Eurorack/4022-Eight-Stage-Sequencer/index.md
+      - Manual: Eurorack/4022-Eight-Stage-Sequencer/Manual.md
+    
+    - 606 Hihat Generator:
+      - Overview: Eurorack/606-Hihat-Generator/index.md
+      - Manual: Eurorack/606-Hihat-Generator/Manual.md
+    
+    - 909 Kick Generator:
+      - Overview: Eurorack/909-Kick-Generator/index.md
+      - Manual: Eurorack/909-Kick-Generator/Manual.md
+  
+
+  - 000 Series Submodules:
+
+    - 000 Discrete VCA:
+      - Overview: Submodules/000-Discrete-VCA/index.md
+      - Manual: Submodules/000-Discrete-VCA/manual.md
+
+
+
+  - Standalone:
+
+    - Dronebox-1:
+      - Overview: Standalone/Dronebox-1/index.md
+      - Manual: Standalone/Dronebox-1/Manual.md
+    
+    - Percbox:
+      - Overview: Standalone/Percbox/index.md
+      - Manual: Standalone/Percbox/Manual.md
+    
+    - Synthcard:
+      - Overview: Standalone/Synthcard/index.md
+      - Manual: Standalone/Synthecard/Manual.md
+    
+    - Beam Catcher:
+      - Overview: Standalone/Beam-Catcher/index.md
+
 
   - Archive:
 
@@ -122,19 +158,6 @@ nav:
       - Overview: archive/Faderbanks/index.md
       - Manual: archive/Faderbanks/Manual.md
   
-  - Standalone:
-
-    - Dronebox-1:
-      - Overview: Standalone/Dronebox-1/index.md
-      - Manual: Standalone/Dronebox-1/Manual.md
-    
-    - Percbox:
-      - Overview: Standalone/Percbox/index.md
-      - Manual: Standalone/Percbox/Manual.md
-    
-    - Synthcard:
-      - Overview: Standalone/Synthcard/index.md
-      - Manual: Standalone/Synthecard/Manual.md
 
 theme: 
   name: readthedocs
