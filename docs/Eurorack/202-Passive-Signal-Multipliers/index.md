@@ -1,6 +1,6 @@
 # 202 Passive Signal Multipliers
 
-![img](Images/img)
+![img](Images/202-0.1-1.jpg)
 
 [TOC]
 
