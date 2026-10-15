@@ -68,6 +68,10 @@ nav:
     - 311 Digital Audio Player:
       - Overview: Eurorack/311-Digital-Audio-Player/index.md
       - Manual: Eurorack/311-Digital-Audio-Player/Manual.md
+    
+    - 312 Dual Function Generators:
+      - Overview: Eurorack/312-Dual-Function-Generators/index.md
+      - Manual: Eurorack/312-Dual-Function-Generators/Manual.md
 
 
   - 500 Series: 
@@ -116,10 +120,11 @@ nav:
     
     - Synthcard:
       - Overview: Standalone/Synthcard/index.md
-      - Manual: Standalone/Synthecard/Manual.md
+      - Manual: Standalone/Synthcard/Manual.md
     
     - Beam Catcher:
       - Overview: Standalone/Beam-Catcher/index.md
+      - Manual: Standalone/Beam-Catcher/index.md
 
 
   - Archive:

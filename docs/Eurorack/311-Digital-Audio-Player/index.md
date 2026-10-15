@@ -12,11 +12,11 @@
 
 |Parameter|Value|
 |---------|-----|
-|Width|-|
+|Width|8hp|
 |Depth|-|
 |+12 Current|-|
 |-12 Current|-|
-|+5 Current|-|
+|+5 Current|0mA|
 
 ## Features
 

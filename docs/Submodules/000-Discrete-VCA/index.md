@@ -1,10 +1,10 @@
-# Title
+# 000 Discrete VCA
 
 ![img](Images/img)
 
 [TOC]
 
-*Short description*
+*Long Tail Pair VCA Submodule*
 
 # v0.1
 
