@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Manual - F113X</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Manual";
+        var mkdocs_page_input_path = "Eurorack/312-Dual-Function-Generators/Manual.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> F113X
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../about/">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Notes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/todo/">Todo List</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/design-philosophy/">Design Philosophy 2026</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/naming-convention/">Naming Convention</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/manuals/">Manuals</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/13-01-2026/">13-01-2026</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/21-01-2026/">21-01-2026</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/funny-falstad-circuit/">21-01-2026 2 - Funny Falstad Circuit</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/14-02-2026/">14-02-2026</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/04-03-2026/">04-03-2026 - RC filters</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/23-03-2026/">23-03-2026 - Interesting Idea</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../Notes/10-04-2026/">10-04-2026</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">200 Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >201 Dual Attenuverters</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../201-Dual-Attenuverters/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../201-Dual-Attenuverters/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >202 Passive Signal Multipliers</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../202-Passive-Signal-Multipliers/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../202-Passive-Signal-Multipliers/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">300 Series</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >301 Variable Waveshape LFO</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../301-Variable-Waveshape-LFO/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../301-Variable-Waveshape-LFO/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >302 Dual Analog Saw Core VCO</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../302-Dual-Analog-Saw-Core-VCO/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../302-Dual-Analog-Saw-Core-VCO/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >304 Quad Channel Voltage Controlled Mixer</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../304-Quad-Channel-Voltage-Controlled-Mixer/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../304-Quad-Channel-Voltage-Controlled-Mixer/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >305 Analogue Stochastic Signal Generators</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../305-Analogue-Stochastic-Signal-Generators/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../305-Analogue-Stochastic-Signal-Generators/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >306 Voltage Controlled Envelope Generator</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../306-Voltage-Controlled-Envelope-Generator/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../306-Voltage-Controlled-Envelope-Generator/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >307 Dual Analogue State Variable Filters</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../307-Dual-Analogue-State-Variable-Filters/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../307-Dual-Analogue-State-Variable-Filters/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >308 Voltage Controlled Filter & Wavefolder</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../308-Voltage-Controlled-Filter-And-Wavefolder/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../308-Voltage-Controlled-Filter-And-Wavefolder/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >309 Advanced Clock Source</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../309-Advanced-Clock-Source/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../309-Advanced-Clock-Source/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >310c Diode Voltage Controlled Filter</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../310c-Diode-Voltage-Controlled-Filter/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../310c-Diode-Voltage-Controlled-Filter/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >311 Digital Audio Player</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../311-Digital-Audio-Player/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../311-Digital-Audio-Player/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >312 Dual Function Generators</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../">Overview</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Manual</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#1-introduction">1 Introduction</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-power">2 Power</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-front-panel-overview">3 Front Panel Overview</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-additional-information-optional">4 Additional Information (Optional)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#5-patch-ideas">5 Patch Ideas</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#6-technical-specifications">6 Technical Specifications</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#61-dimensions-power">6.1 Dimensions &amp; Power</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#62-inputs-outputs">6.2 Inputs &amp; Outputs</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#63-additional-specifications-optional">6.3 Additional Specifications (Optional)</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">500 Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >501 Timbre Workshop</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../501-Timbre-Workshop/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../501-Timbre-Workshop/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Misc. Modules</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >2399 Digital Delay Line</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../2399-Digital-Delay-Line/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../2399-Digital-Delay-Line/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >4022 Eight Stage Sequencer</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../4022-Eight-Stage-Sequencer/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../4022-Eight-Stage-Sequencer/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >606 Hihat Generator</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../606-Hihat-Generator/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../606-Hihat-Generator/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >909 Kick Generator</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../909-Kick-Generator/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../909-Kick-Generator/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">000 Series Submodules</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >000 Discrete VCA</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../Submodules/000-Discrete-VCA/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../../Submodules/000-Discrete-VCA/manual.md">Manual</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Standalone</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Dronebox-1</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../Standalone/Dronebox-1/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../Standalone/Dronebox-1/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Percbox</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../Standalone/Percbox/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../Standalone/Percbox/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Synthcard</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../Standalone/Synthcard/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../Standalone/Synthcard/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Beam Catcher</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../Standalone/Beam-Catcher/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../Standalone/Beam-Catcher/">Overview</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Archive</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../archive/">Index</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >VCF-1</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/VCF-1/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/VCF-1/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >VCF-2 (1U)</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/VCF-2/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/VCF-2/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Luther's VCO</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/Luthers-VCO/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/Luthers-VCO/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >1VOct Calibrator</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/1VOct-Calibrator/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/1VOct-Calibrator/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Big Button Pico</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/Big-Button-Pico/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/Big-Button-Pico/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Micro S&H</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/uS%26H/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/uS%26H/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >VCA Duck</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/VCA-Duck/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/VCA-Duck/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Faderbanks</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/Faderbanks/">Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../archive/Faderbanks/Manual/">Manual</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">F113X</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">300 Series</li>
+          <li class="breadcrumb-item">312 Dual Function Generators</li>
+      <li class="breadcrumb-item active">Manual</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="xxx-user-manual">XXX User Manual</h1>
+<p><em>This is the web version of the manual. Click <a href="Files/manual.pdf">here</a> for the PDF version.</em></p>
+<div class="toc">
+<ul>
+<li><a href="#xxx-user-manual">XXX User Manual</a><ul>
+<li><a href="#1-introduction">1 Introduction</a></li>
+<li><a href="#2-power">2 Power</a></li>
+<li><a href="#3-front-panel-overview">3 Front Panel Overview</a></li>
+<li><a href="#4-additional-information-optional">4 Additional Information (Optional)</a></li>
+<li><a href="#5-patch-ideas">5 Patch Ideas</a></li>
+<li><a href="#6-technical-specifications">6 Technical Specifications</a><ul>
+<li><a href="#61-dimensions-power">6.1 Dimensions &amp; Power</a></li>
+<li><a href="#62-inputs-outputs">6.2 Inputs &amp; Outputs</a></li>
+<li><a href="#63-additional-specifications-optional">6.3 Additional Specifications (Optional)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="1-introduction">1 Introduction</h2>
+<h2 id="2-power">2 Power</h2>
+<p>This module requires XXXhp of free space in a rack. When installing, always turn off the power supply before plugging anything in. When plugging in the 10-16 pin ribbon power cable, ensure that the red stripe lines up with the <strong>RED LINE</strong> mark (refer to fig. 2.1) on the module and the marking that indicates <strong>-12v</strong> on the bus board. </p>
+<p>This module <strong>is/is not</strong> reverse polarity protected. This means that the module will not/will get heavily damaged if the power cable is plugged in backwards. However, a reversed power cable may still cause damage to the components in the module, as well as other modules connected to the same power supply. </p>
+<p><img alt="fig. 2.1" src="Images/power-header.png" /></p>
+<h2 id="3-front-panel-overview">3 Front Panel Overview</h2>
+<h2 id="4-additional-information-optional">4 Additional Information (Optional)</h2>
+<h2 id="5-patch-ideas">5 Patch Ideas</h2>
+<h2 id="6-technical-specifications">6 Technical Specifications</h2>
+<h3 id="61-dimensions-power">6.1 Dimensions &amp; Power</h3>
+<table>
+<thead>
+<tr>
+<th>Width</th>
+<th>Depth</th>
+<th>+12v Current</th>
+<th>-12v Current</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="62-inputs-outputs">6.2 Inputs &amp; Outputs</h3>
+<table>
+<thead>
+<tr>
+<th>Inputs</th>
+<th>Additional Info</th>
+<th>Outputs</th>
+<th>Additional Info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="63-additional-specifications-optional">6.3 Additional Specifications (Optional)</h3>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../" class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../501-Timbre-Workshop/" class="btn btn-neutral float-right" title="Overview">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>© 2026 F113X</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../501-Timbre-Workshop/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
