@@ -15,6 +15,7 @@ nav:
     - 04-03-2026 - RC filters: Notes/04-03-2026.md
     - 23-03-2026 - Interesting Idea: Notes/23-03-2026.md
     - 10-04-2026: Notes/10-04-2026.md
+    - 15-10-2026 - A New Series!: Notes/15-10-2026.md
 
   - 200 Series:
 
@@ -100,7 +101,7 @@ nav:
       - Manual: Eurorack/909-Kick-Generator/Manual.md
   
 
-  - 000 Series Submodules:
+  - 0 Series Submodules:
 
     - 000 Discrete VCA:
       - Overview: Submodules/000-Discrete-VCA/index.md
