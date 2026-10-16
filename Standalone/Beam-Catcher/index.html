@@ -273,9 +273,7 @@
     <ul class="current">
     </ul>
                 </li>
-                <li class="toctree-l2 current"><a class="reference internal current" href="#">Overview</a>
-    <ul class="current">
-    </ul>
+                <li class="toctree-l2"><a class="reference internal" href="Manual/">Manual</a>
                 </li>
     </ul>
                   </li>
@@ -374,13 +372,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="title">Title</h1>
-<p><img alt="img" src="Images/img" /></p>
+                <h1 id="beam-catcher">Beam Catcher</h1>
+<p><img alt="img" src="Images/beam-catcher-0.1-1.jpg" /></p>
 <div class="toc">
 <ul>
-<li><a href="#title">Title</a></li>
+<li><a href="#beam-catcher">Beam Catcher</a></li>
 <li><a href="#v01">v0.1</a><ul>
-<li><a href="#specifications">Specifications</a></li>
 <li><a href="#features">Features</a></li>
 <li><a href="#quirks-and-problems">Quirks and Problems</a></li>
 </ul>
@@ -389,51 +386,30 @@
 </div>
 <p><em>12-oscillator synth played with light</em></p>
 <h1 id="v01">v0.1</h1>
-<h2 id="specifications">Specifications</h2>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Width</td>
-<td>-</td>
-</tr>
-<tr>
-<td>Depth</td>
-<td>-</td>
-</tr>
-<tr>
-<td>+12 Current</td>
-<td>-</td>
-</tr>
-<tr>
-<td>-12 Current</td>
-<td>-</td>
-</tr>
-<tr>
-<td>+5 Current</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
+<p>The concept and most of this instrument is not my original design. I built this with a few modifications for myself, and this page is meant for documentation. </p>
+<p>Please also check out the <a href="https://github.com/uvknhn/Beam-Catcher/">original</a> and support the original creator, it's super awesome!</p>
+<p>It is a very simple instrument, 12 inverting schmitt-trigger squarewave oscillators (the simplest kinds that is in every beginner diy synth) from 2 CD40106's are driving 12 LEDs to flash at audio rate (each oscillator is tunable), and 2 photodiodes (one for the left channel and one for the right) pick the flashing back up and is amplified through an onboard amplifier, where the volume can be controlled. This also means that the instrument is stereo and "duophonic", and the 2 pickups form a binaural configuration.</p>
+<p>That is all from the original design, but when I heard the demo videos I thought the sounds were a bit too harsh at times, which is why I added a lowpass filter to the signal chain of each channel, and in order to animate the sound even more, I came up with a super simple "envelope follower" of sorts, where the amplitude of the incoming audio will <em>somewhat</em> control the filter. Those can be controlled via the knobs on the top, where the knob closer to the edge is the cutoff and the other knob controls the "envelope follower" amount. Because this module is powered by 5V from usb and I usually work with ±12V, I did not want to deal with all the differences and opted for a simple vactrol VCF. It's not super accurate but good enough for me. </p>
+<p>This setup makes playing the instrument very expressive and flexible, despite the concept being super simple. The oscillators can be tuned to scales (or non-scales), and hovering the pickups above an LED will yield the frequency of its flashing in the output. Photodiodes are extremily responsive and has much less of the "slewing" effect found in LDRs, so it can pick up higher frequencies as well. The volume that is picked up can be affected by the distance between the pickup and the LED, as well as turning the pickup at different angles. But with the volume attenuation also comes a timbral change, as other sources of interference are introduced when the pickup is away from a single source. Chords are also somewhat possible, when the pickup is brought further from the LEDs, it will often also pick up the frequency of the nearby LEDs, allowing for multiple "notes" to be played at the same time. Note that the results from this will be quite noisy, which can be a good or bad thing.</p>
 <h2 id="features">Features</h2>
 <ul>
-<li></li>
+<li>12 individually tunable squarewave oscillators</li>
+<li>Stereo output with individual volume control</li>
+<li>Stereo lowpass VCF with individual cutoff controls</li>
+<li>Dual envelope follower (one following each channel) which can be used to modulate VCF</li>
+<li>Powered by USB-C (5V)</li>
 </ul>
 <h2 id="quirks-and-problems">Quirks and Problems</h2>
 <ul>
-<li></li>
+<li>Single-turn trimpots are a PITA to tune</li>
+<li>Filter frequency is quite limited and the "envelope follower" sometimes breaks it, but maybe some electrical tape over the vactrols to reduce light bleed will help</li>
 </ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="./" class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../../archive/" class="btn btn-neutral float-right" title="Index">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../Synthcard/Manual/" class="btn btn-neutral float-left" title="Manual"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="Manual/" class="btn btn-neutral float-right" title="Manual">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -457,10 +433,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="./" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../Synthcard/Manual/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../../archive/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="Manual/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
