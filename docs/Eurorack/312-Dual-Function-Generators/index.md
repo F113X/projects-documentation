@@ -1,6 +1,6 @@
 # 312 Dual Function Generators
 
-![img](Images/img)
+![img](Images/312-0.1-1.jpg)
 
 [TOC]
 
